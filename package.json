@@ -1,0 +1,14 @@
+{
+  "name": "civique",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Un carnet de révision local pour l’examen civique français.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

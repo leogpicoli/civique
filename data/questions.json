@@ -1,0 +1,4777 @@
+{
+  "metadata": {
+    "titre": "Questions de connaissances officielles et propositions de réponses - Examen civique (Naturalisation)",
+    "auteur_reponses_suggerees": "leqcmcivique.fr",
+    "site_web": "https://leqcmcivique.fr",
+    "avertissement_legal": "Les questions sont celles publiées par le Ministère de l'Intérieur sur https://www.immigration.interieur.gouv.fr/Integration-et-Acces-a-la-nationalite/La-nationalite-francaise/Les-procedures-d-acces-a-la-nationalite-francaise. Les réponses proposées sont des suggestions pédagogiques indépendantes créées par leqcmcivique.fr et n'engagent en aucun cas l'État français.",
+    "licence": "Licence Ouverte 2.0 (Etalab)"
+  },
+  "deduplication": {
+    "inputQuestions": 258,
+    "mergedQuestions": 4,
+    "outputQuestions": 254,
+    "groups": [
+      {
+        "retainedId": 3,
+        "sourceIds": [
+          3,
+          116
+        ],
+        "type": "semantic-reviewed",
+        "question": "Déclarer ses revenus aux services fiscaux est :",
+        "originalQuestions": [
+          {
+            "id": 3,
+            "question": "Déclarer ses revenus aux services fiscaux est :"
+          },
+          {
+            "id": 116,
+            "question": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?"
+          }
+        ],
+        "answersBefore": 2,
+        "answersAfter": 2
+      },
+      {
+        "retainedId": 13,
+        "sourceIds": [
+          13,
+          135
+        ],
+        "type": "semantic-reviewed",
+        "question": "Que commémore la fête nationale ?",
+        "originalQuestions": [
+          {
+            "id": 13,
+            "question": "Que commémore la fête nationale ?"
+          },
+          {
+            "id": 135,
+            "question": "Que signifie la date du 14 juillet pour les Français ?"
+          }
+        ],
+        "answersBefore": 6,
+        "answersAfter": 6
+      },
+      {
+        "retainedId": 21,
+        "sourceIds": [
+          21,
+          99
+        ],
+        "type": "semantic-reviewed",
+        "question": "Selon la Constitution, la France est une République...",
+        "originalQuestions": [
+          {
+            "id": 21,
+            "question": "Selon la Constitution, la France est une République..."
+          },
+          {
+            "id": 99,
+            "question": "Que dit l'article 1er de la Constitution française ?"
+          }
+        ],
+        "answersBefore": 2,
+        "answersAfter": 2
+      },
+      {
+        "retainedId": 41,
+        "sourceIds": [
+          41,
+          72
+        ],
+        "type": "semantic-reviewed",
+        "question": "Qui peut se présenter aux élections présidentielles ?",
+        "originalQuestions": [
+          {
+            "id": 41,
+            "question": "Qui peut se présenter aux élections présidentielles ?"
+          },
+          {
+            "id": 72,
+            "question": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?"
+          }
+        ],
+        "answersBefore": 6,
+        "answersAfter": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q-1",
+      "sourceIds": [
+        1
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Complétez les paroles de la Marseillaise \"Allons enfants de la patrie...\"",
+      "answers": [
+        "Le jour de gloire est arrivé"
+      ],
+      "wrong": [
+        "L'heure de la gloire a sonné",
+        "Le jour de victoire est arrivé",
+        "Le temps de la gloire est venu"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-2",
+      "sourceIds": [
+        2
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Dans le cadre d'un entretien d'embauche, que peut-on demander au candidat ?",
+      "answers": [
+        "Une preuve de l'autorisation de travail, pour un candidat étranger",
+        "Des questions sur ses compétences et son expérience professionnelle"
+      ],
+      "wrong": [
+        "Sa situation familiale et s'il prévoit d'avoir des enfants",
+        "S'il est syndiqué ou l'a été chez son ancien employeur",
+        "Le pays d'origine de ses parents"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-3",
+      "sourceIds": [
+        3,
+        116
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Déclarer ses revenus aux services fiscaux est :",
+      "answers": [
+        "Une obligation annuelle pour les contribuables concernés, avec une déclaration automatique possible sous conditions"
+      ],
+      "wrong": [
+        "Une démarche supprimée depuis la mise en place du prélèvement à la source en 2019",
+        "Une obligation tous les cinq ans, à chaque mise à jour de la situation du foyer fiscal",
+        "Une démarche facultative, utile seulement pour obtenir un remboursement d'impôt"
+      ],
+      "corrections": [
+        {
+          "reason": "L'obligation concerne la déclaration annuelle des revenus du foyer fiscal. Les personnes éligibles à la déclaration automatique doivent vérifier les informations et les corriger si nécessaire ; une nouvelle démarche n'est pas toujours requise.",
+          "source": "https://www.impots.gouv.fr/particulier/questions/dois-je-deposer-une-declaration-dimpot-sur-le-revenu-cette-annee"
+        }
+      ]
+    },
+    {
+      "id": "q-4",
+      "sourceIds": [
+        4
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "answers": [
+        "Ils financent les services publics (éducation, santé, sécurité) et le fonctionnement de l'État"
+      ],
+      "wrong": [
+        "Ils sont reversés en grande partie à l'Union européenne, qui décide ensuite de leur usage",
+        "Ils financent l'armée et la police ; l'école et l'hôpital sont payés par les usagers",
+        "Ils servent principalement à financer les partis politiques (campagnes, militants)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-5",
+      "sourceIds": [
+        5
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "La liberté d'association est :",
+      "answers": [
+        "Un principe fondamental régi par la loi du 1er juillet 1901"
+      ],
+      "wrong": [
+        "Un principe fondamental régi par la loi du 9 décembre 1905",
+        "Une liberté soumise à l'autorisation préalable du préfet",
+        "Un droit réservé aux citoyens de nationalité française"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-6",
+      "sourceIds": [
+        6
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "La liberté d'expression sur les réseaux sociaux en France est :",
+      "answers": [
+        "Libre, mais encadrée par la loi",
+        "Limitée : les propos haineux sont interdits",
+        "Exercée dans le respect de la loi du 29 juillet 1881"
+      ],
+      "wrong": [
+        "Totale sous pseudonyme, car l'auteur ne peut pas être identifié",
+        "Encadrée seulement par les règles du réseau social, pas par la loi française",
+        "Soumise à une autorisation de l'État avant chaque publication"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-7",
+      "sourceIds": [
+        7
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Lequel de ces prénoms évoque un symbole de la République ?",
+      "answers": [
+        "Marianne"
+      ],
+      "wrong": [
+        "Jeanne",
+        "Joséphine",
+        "Geneviève"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-8",
+      "sourceIds": [
+        8
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Lequel de ces symboles représente la République française ?",
+      "answers": [
+        "Le drapeau tricolore",
+        "La Marseillaise",
+        "Marianne",
+        "La fête nationale du 14 juillet",
+        "Le coq gaulois"
+      ],
+      "wrong": [
+        "La fleur de lys",
+        "L'abeille impériale",
+        "La salamandre de François Ier"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-9",
+      "sourceIds": [
+        9
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Où peut-on voir la devise de la République ?",
+      "answers": [
+        "Sur les frontons des bâtiments publics (mairies, écoles, palais de justice)",
+        "Sur certaines pièces de monnaie",
+        "Sur les timbres"
+      ],
+      "wrong": [
+        "Sur la bande blanche du drapeau tricolore, en lettres dorées",
+        "Sur les billets de banque en euros (au recto)",
+        "Sur les plaques d'immatriculation des voitures françaises"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-10",
+      "sourceIds": [
+        10
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Lesquels sont des symboles officiels de la République française ?",
+      "answers": [
+        "Le drapeau tricolore, la Marseillaise et Marianne",
+        "Le drapeau, l'hymne national et la devise \"Liberté, Égalité, Fraternité\""
+      ],
+      "wrong": [
+        "Le drapeau tricolore, la fleur de lys et la Marseillaise",
+        "Marianne, l'aigle impérial et la devise \"Liberté, Égalité, Fraternité\"",
+        "Le drapeau tricolore, la tour Eiffel et l'Ode à la joie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-11",
+      "sourceIds": [
+        11
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Peut-on brûler publiquement un drapeau français ?",
+      "answers": [
+        "Brûler publiquement le drapeau peut constituer un outrage sanctionné par le Code pénal, selon le contexte",
+        "L'outrage au drapeau pendant une manifestation organisée ou réglementée par les pouvoirs publics est puni de 7 500 euros d'amende"
+      ],
+      "wrong": [
+        "Oui, c'est toujours protégé par la liberté d'expression, quel que soit le contexte",
+        "Oui, si le drapeau vous appartient, car chacun dispose librement de ses biens",
+        "Non, c'est un crime puni de dix ans de réclusion criminelle"
+      ],
+      "corrections": [
+        {
+          "reason": "La réponse initiale présentait tout acte comme un délit automatiquement puni de 7 500 euros. Les conditions et les peines dépendent notamment du contexte : article 433-5-1 pour certaines manifestations, article R645-15 pour certains autres outrages.",
+          "source": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006149849/2024-03-23"
+        }
+      ]
+    },
+    {
+      "id": "q-12",
+      "sourceIds": [
+        12
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quand la sécurité sociale a-t-elle été établie en France ?",
+      "answers": [
+        "1945"
+      ],
+      "wrong": [
+        "1936",
+        "1958",
+        "1968"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-13",
+      "sourceIds": [
+        13,
+        135
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que commémore la fête nationale ?",
+      "answers": [
+        "La prise de la Bastille (14 juillet 1789)",
+        "La Fête de la Fédération (14 juillet 1790)",
+        "L'unité de la Nation et la fin de la monarchie absolue",
+        "La prise de la Bastille (14 juillet 1789) et l'union nationale (14 juillet 1790)"
+      ],
+      "wrong": [
+        "La proclamation de la Première République (21 septembre 1792)",
+        "La Déclaration des droits de l'homme et du citoyen (26 août 1789)",
+        "La libération de Paris (25 août 1944)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-14",
+      "sourceIds": [
+        14
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que porte Marianne sur la tête ?",
+      "answers": [
+        "Un bonnet phrygien"
+      ],
+      "wrong": [
+        "Un tricorne",
+        "Un béret basque",
+        "Une couronne royale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-15",
+      "sourceIds": [
+        15
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que signifie le mot 'fraternité' dans la devise française ?",
+      "answers": [
+        "La solidarité entre tous les citoyens",
+        "L'esprit de solidarité et d'entraide mutuelle"
+      ],
+      "wrong": [
+        "Le fait que tous les citoyens ont les mêmes droits devant la loi",
+        "Le droit de faire tout ce qui ne nuit pas à autrui",
+        "L'obligation d'aider d'abord les membres de sa propre famille"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-16",
+      "sourceIds": [
+        16
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quel symbole de la République peut-on voir sur les maillots de l'équipe de France de football ?",
+      "answers": [
+        "Le coq gaulois"
+      ],
+      "wrong": [
+        "Marianne",
+        "Une fleur de lys",
+        "Un aigle"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-17",
+      "sourceIds": [
+        17
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quelle est la devise de l'Union européenne ?",
+      "answers": [
+        "Unie dans la diversité"
+      ],
+      "wrong": [
+        "L'union fait la force",
+        "Unis dans la paix",
+        "Liberté, Égalité, Fraternité"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-18",
+      "sourceIds": [
+        18
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quelle est la devise de la République française ?",
+      "answers": [
+        "Liberté, Égalité, Fraternité"
+      ],
+      "wrong": [
+        "Travail, Famille, Patrie",
+        "Honneur et Patrie",
+        "Unie dans la diversité"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-19",
+      "sourceIds": [
+        19
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Qu'est-ce que la liberté d'association ?",
+      "answers": [
+        "Le droit de se regrouper pour un projet commun sans but lucratif",
+        "La liberté régie par la loi du 1er juillet 1901",
+        "Le droit de créer une association sur simple déclaration"
+      ],
+      "wrong": [
+        "Le droit de créer une association après autorisation du préfet",
+        "La liberté régie par la loi du 9 décembre 1905",
+        "Le droit de se regrouper pour partager les bénéfices d'une activité commerciale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-20",
+      "sourceIds": [
+        20
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Qu'est-ce qu'une liberté ?",
+      "answers": [
+        "Le droit de faire tout ce qui ne nuit pas à autrui",
+        "Un droit fondamental garanti par la Constitution",
+        "La possibilité d'agir sans contrainte, dans les limites de la loi"
+      ],
+      "wrong": [
+        "Une autorisation accordée par l'administration, qui peut la retirer à tout moment",
+        "Le droit de faire tout ce que l'on veut, même si cela nuit à autrui",
+        "Un avantage réservé aux citoyens qui paient des impôts"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-21",
+      "sourceIds": [
+        21,
+        99
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Selon la Constitution, la France est une République...",
+      "answers": [
+        "Indivisible, laïque, démocratique et sociale"
+      ],
+      "wrong": [
+        "Indivisible, laïque, démocratique et fédérale",
+        "Unie, laïque, libérale et sociale",
+        "Indivisible, chrétienne, démocratique et sociale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-22",
+      "sourceIds": [
+        22
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Sur quel document peut-on voir Marianne ?",
+      "answers": [
+        "Sur les timbres",
+        "Sur la carte nationale d'identité",
+        "Sur des documents administratifs, comme la déclaration d'impôts"
+      ],
+      "wrong": [
+        "Sur les billets de banque en euros, comme ceux de 20 €",
+        "Sur le drapeau européen, au centre du cercle d'étoiles",
+        "Sur les cartes bancaires émises par les banques françaises"
+      ],
+      "corrections": [
+        {
+          "reason": "La question demande un document : les bustes dans les mairies et les pièces de monnaie ne répondent pas à cette formulation. Les exemples de documents conservés ou précisés sont attestés par la fiche officielle de formation civique.",
+          "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/"
+        }
+      ]
+    },
+    {
+      "id": "q-23",
+      "sourceIds": [
+        23
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Une des valeurs de la devise républicaine est l'Égalité. Qu'est-ce que cela signifie ?",
+      "answers": [
+        "Tous les citoyens ont les mêmes droits et devoirs",
+        "La loi est la même pour tous, sans distinction d'origine, de race ou de religion",
+        "L'interdiction de toute discrimination par l'État"
+      ],
+      "wrong": [
+        "Tous les citoyens doivent recevoir le même salaire, quel que soit leur emploi",
+        "Tous les citoyens doivent avoir les mêmes opinions et le même mode de vie",
+        "L'État doit verser la même somme d'argent à chaque famille chaque mois"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-24",
+      "sourceIds": [
+        24
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Une personne peut-elle changer librement de religion en France ?",
+      "answers": [
+        "Oui, la France garantit la liberté de conscience",
+        "Oui, chacun est libre de croire, de ne pas croire ou de changer de religion",
+        "Oui, c'est un droit fondamental protégé par la laïcité"
+      ],
+      "wrong": [
+        "Oui, mais seulement après une déclaration à la mairie",
+        "Non, pas si ses parents s'y opposent, même à l'âge adulte",
+        "Oui, mais une seule fois dans sa vie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-25",
+      "sourceIds": [
+        25
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Selon le principe de laïcité, que signifie la neutralité de l'Etat ?",
+      "answers": [
+        "L'État ne privilégie aucune religion et traite les croyants et les non-croyants avec impartialité",
+        "L'impartialité totale de l'État vis-à-vis des cultes"
+      ],
+      "wrong": [
+        "L'État finance toutes les religions à parts égales",
+        "Les citoyens ne peuvent pas exprimer leur religion en public",
+        "L'État reconnaît officiellement et soutient financièrement la religion de la majorité"
+      ],
+      "corrections": [
+        {
+          "reason": "La neutralité est conservée ; l'affirmation absolue selon laquelle l'État ne finance jamais une religion a été retirée, car le principe de non-subventionnement connaît des exceptions légales.",
+          "source": "https://www.vie-publique.fr/eclairage/20205-laicite-le-regime-de-separation-entre-letat-et-les-cultes"
+        }
+      ]
+    },
+    {
+      "id": "q-26",
+      "sourceIds": [
+        26
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que peut faire un usager du service public dans une mairie ?",
+      "answers": [
+        "Demander un passeport ou une carte d'identité, si la mairie est équipée pour cela",
+        "Se marier (mariage civil)",
+        "S'inscrire sur les listes électorales",
+        "Déclarer une naissance ou un décès (état civil)"
+      ],
+      "wrong": [
+        "Demander ou renouveler un titre de séjour (carte de résident)",
+        "Déclarer ses revenus (impôt sur le revenu)",
+        "S'inscrire comme demandeur d'emploi à France Travail"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-27",
+      "sourceIds": [
+        27
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "En France, il est possible pour l'État de financer :",
+      "answers": [
+        "Les écoles publiques, les hôpitaux et les infrastructures",
+        "Les services publics et les associations d'intérêt général"
+      ],
+      "wrong": [
+        "Le culte d'une religion choisie comme religion officielle",
+        "Les vacances personnelles d'un ministre et de sa famille",
+        "La campagne électorale d'un candidat soutenu par le Gouvernement"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-28",
+      "sourceIds": [
+        28
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+      "answers": [
+        "1905"
+      ],
+      "wrong": [
+        "1881",
+        "1901",
+        "1946"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-29",
+      "sourceIds": [
+        29
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que dit la loi de 1905 ?",
+      "answers": [
+        "Elle garantit la liberté de conscience et le libre exercice des cultes",
+        "Elle sépare les Églises et l'État",
+        "Elle affirme que la République ne salarie ni ne subventionne aucun culte"
+      ],
+      "wrong": [
+        "Elle interdit le port de signes religieux dans l'espace public",
+        "Elle fait du catholicisme la religion officielle de la France",
+        "Elle rend l'école gratuite, laïque et obligatoire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-30",
+      "sourceIds": [
+        30
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Que garantit le principe de laïcité ?",
+      "answers": [
+        "La neutralité de l'État et la liberté de conscience",
+        "La séparation des institutions publiques et des organisations religieuses",
+        "Le respect de toutes les croyances sans en privilégier aucune"
+      ],
+      "wrong": [
+        "L'interdiction de manifester sa religion dans la rue",
+        "Le financement égal de toutes les religions par l'État",
+        "L'obligation de déclarer sa religion à la mairie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-31",
+      "sourceIds": [
+        31
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quel jour célèbre-t-on officiellement la laïcité en France ?",
+      "answers": [
+        "Le 9 décembre"
+      ],
+      "wrong": [
+        "Le 9 mai",
+        "Le 4 octobre",
+        "Le 26 août"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-32",
+      "sourceIds": [
+        32
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quel symbole religieux peut être porté dans une école publique dans le respect de la laïcité ?",
+      "answers": [
+        "Un signe religieux discret",
+        "Un symbole qui ne se remarque pas immédiatement"
+      ],
+      "wrong": [
+        "Un voile ou une kippa, si les parents l'autorisent",
+        "Tout signe religieux, car la liberté de conscience s'applique à l'école",
+        "Aucun, même discret : tout symbole religieux est interdit"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-33",
+      "sourceIds": [
+        33
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quel terme désigne précisément la haine ou les préjugés contre les Juifs ?",
+      "answers": [
+        "Antisémitisme"
+      ],
+      "wrong": [
+        "Xénophobie",
+        "Anticléricalisme",
+        "Athéisme"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-34",
+      "sourceIds": [
+        34
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
+      "answers": [
+        "La loi de 1905 de séparation des Églises et de l'État"
+      ],
+      "wrong": [
+        "La loi Jules Ferry de 1882 sur l'école",
+        "La loi de 2004 sur les signes religieux à l'école",
+        "La loi de 1901 relative aux associations"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-35",
+      "sourceIds": [
+        35
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Quelle institution française doit rester neutre en matière de religion ?",
+      "answers": [
+        "L'État et ses administrations",
+        "Les services publics (hôpitaux publics, écoles publiques, préfectures)",
+        "Les fonctionnaires et agents publics"
+      ],
+      "wrong": [
+        "Les entreprises privées (commerces, usines, bureaux) et leurs salariés",
+        "Les usagers qui se rendent dans une administration",
+        "Les partis politiques"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-36",
+      "sourceIds": [
+        36
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Qu'est-ce que la laïcité ?",
+      "answers": [
+        "La séparation de l'État et des religions",
+        "La garantie de la liberté de conscience et la neutralité de l'État",
+        "Le principe qui permet de vivre ensemble quelles que soient nos croyances"
+      ],
+      "wrong": [
+        "L'interdiction de toute expression religieuse en dehors des lieux de culte",
+        "Le financement de tous les cultes à parts égales par l'État",
+        "La reconnaissance officielle de plusieurs religions par l'État"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-37",
+      "sourceIds": [
+        37
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "À l'école, la charte de la laïcité permet de :",
+      "answers": [
+        "Rappeler les règles du vivre-ensemble à l'école",
+        "Faire comprendre le sens de la laïcité aux élèves",
+        "Expliquer que la laïcité protège la liberté des élèves"
+      ],
+      "wrong": [
+        "Interdire aux élèves de parler de religion, même en cours d'histoire",
+        "Permettre aux élèves de refuser un cours contraire à leurs convictions",
+        "Organiser un enseignement religieux au choix des familles"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-38",
+      "sourceIds": [
+        38
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Qui doit respecter et veiller à la neutralité religieuse dans les services publics ?",
+      "answers": [
+        "Les agents du service public",
+        "Les personnes travaillant pour l'État ou les collectivités",
+        "Le personnel des hôpitaux publics et des écoles publiques"
+      ],
+      "wrong": [
+        "Les usagers des services publics, dans toutes leurs démarches",
+        "Les salariés de toutes les entreprises privées",
+        "Les étudiants des universités publiques"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-39",
+      "sourceIds": [
+        39
+      ],
+      "theme": "Principes et valeurs de la République",
+      "question": "Une personne déclare ne croire en aucun dieu. On peut dire :",
+      "answers": [
+        "Elle est athée"
+      ],
+      "wrong": [
+        "Elle est laïque",
+        "Elle est polythéiste",
+        "Elle est monothéiste"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-40",
+      "sourceIds": [
+        40
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Comment est désigné le Premier ministre ?",
+      "answers": [
+        "Par le Président de la République"
+      ],
+      "wrong": [
+        "Par un vote de l'Assemblée nationale",
+        "Par les citoyens, au suffrage universel direct",
+        "Par le Conseil constitutionnel"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-41",
+      "sourceIds": [
+        41,
+        72
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui peut se présenter aux élections présidentielles ?",
+      "answers": [
+        "Tout citoyen français de plus de 18 ans ayant ses droits civiques",
+        "Un citoyen français ayant recueilli 500 parrainages d'élus",
+        "Un citoyen français majeur qui n'est pas inéligible"
+      ],
+      "wrong": [
+        "Tout citoyen français âgé d'au moins 35 ans",
+        "Toute personne résidant en France depuis au moins cinq ans",
+        "Uniquement un candidat investi par un parti représenté au Parlement"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-42",
+      "sourceIds": [
+        42
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "À qui appartient la souveraineté nationale ?",
+      "answers": [
+        "Au peuple"
+      ],
+      "wrong": [
+        "Au président de la République",
+        "Au Parlement",
+        "Au Gouvernement"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-43",
+      "sourceIds": [
+        43
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui est élu lors des élections municipales ?",
+      "answers": [
+        "Les conseillers municipaux"
+      ],
+      "wrong": [
+        "Le maire, élu directement par les habitants",
+        "Les conseillers départementaux",
+        "Les députés"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-44",
+      "sourceIds": [
+        44
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "L'inscription sur les listes électorales est :",
+      "answers": [
+        "Une obligation légale pour pouvoir voter",
+        "Obligatoire, mais sans amende",
+        "Automatique pour les jeunes majeurs recensés"
+      ],
+      "wrong": [
+        "Facultative : une carte d'identité suffit pour voter",
+        "Automatique pour toute personne résidant en France, quelle que soit sa nationalité",
+        "À renouveler avant chaque élection, à la préfecture"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-45",
+      "sourceIds": [
+        45
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+      "answers": [
+        "Être français, majeur et inscrit sur les listes électorales",
+        "Jouir de ses droits civils et politiques"
+      ],
+      "wrong": [
+        "Résider en France depuis au moins cinq ans, quelle que soit sa nationalité",
+        "Être citoyen de l'Union européenne et résider en France",
+        "Avoir au moins 16 ans et être inscrit sur les listes électorales"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-46",
+      "sourceIds": [
+        46
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
+      "answers": [
+        "Avoir au moins 18 ans et posséder la nationalité française ou celle d'un autre pays de l'Union européenne",
+        "Avoir l'attache avec la commune prévue par la loi : qualité d'électeur de la commune ou lien fiscal admis par le Code électoral",
+        "Ne pas se trouver dans un cas d'inéligibilité prévu par la loi"
+      ],
+      "wrong": [
+        "Avoir au moins 25 ans et posséder la nationalité française",
+        "Posséder la nationalité française, les autres citoyens européens ne pouvant pas se présenter",
+        "Résider dans la commune depuis au moins dix ans"
+      ],
+      "corrections": [
+        {
+          "reason": "L'inscription sur la liste électorale de la commune n'est pas la seule voie : un lien fiscal prévu par la loi peut également établir l'attache communale. Les réponses indiquent des conditions nécessaires, sans présenter chaque proposition comme la liste exhaustive des conditions.",
+          "source": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000027433881/2022-05-01"
+        }
+      ]
+    },
+    {
+      "id": "q-47",
+      "sourceIds": [
+        47
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Parmi ces autorités, laquelle est élue ?",
+      "answers": [
+        "Le Maire",
+        "Le Député",
+        "Le Sénateur",
+        "Le Conseiller régional ou départemental"
+      ],
+      "wrong": [
+        "Le préfet",
+        "Le Premier ministre",
+        "Le recteur d'académie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-48",
+      "sourceIds": [
+        48
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelles sont les fonctions du maire ?",
+      "answers": [
+        "Représenter la commune, exécuter les décisions du conseil municipal et veiller à l'ordre public",
+        "Il représente la commune et exécute les décisions du conseil municipal",
+        "Il célèbre les mariages (officier d'état civil) et dirige la police municipale",
+        "Il gère le budget de la commune, les écoles primaires et l'état civil"
+      ],
+      "wrong": [
+        "Nommer le préfet du département et diriger la gendarmerie nationale",
+        "Délivrer les titres de séjour (cartes de résident) aux étrangers de la commune",
+        "Gérer les lycées, les transports régionaux et les universités"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-49",
+      "sourceIds": [
+        49
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Une personne, n'ayant pas d'accès à internet, veut s'inscrire sur les listes électorales pour pouvoir voter aux prochaines élections politiques. Où peut-elle s'inscrire ?",
+      "answers": [
+        "En se rendant à la mairie de son domicile (ou par courrier)"
+      ],
+      "wrong": [
+        "En se rendant à la préfecture de son département",
+        "En se rendant au bureau de poste le plus proche (ou par téléphone)",
+        "En se rendant au commissariat de police de son quartier"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-50",
+      "sourceIds": [
+        50
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "À quel âge peut-on devenir électeur ?",
+      "answers": [
+        "À partir de 18 ans"
+      ],
+      "wrong": [
+        "À partir de 16 ans",
+        "À partir de 21 ans",
+        "À partir de 25 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-51",
+      "sourceIds": [
+        51
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "En France, est-ce obligatoire de voter ?",
+      "answers": [
+        "Non, le vote est un droit, pas une obligation",
+        "Non, c'est un droit et un devoir moral, mais pas une obligation légale",
+        "Non, l'abstention n'est pas punie par la loi (sauf pour les Grands Électeurs au Sénat)"
+      ],
+      "wrong": [
+        "Oui, l'abstention est punie d'une amende (35 euros), sauf motif légitime",
+        "Oui, mais seulement pour l'élection présidentielle",
+        "Non, sauf pour les personnes naturalisées, qui doivent voter"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-52",
+      "sourceIds": [
+        52
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "A-t-on le droit de ne pas respecter une loi ?",
+      "answers": [
+        "Non, nul n'est censé ignorer la loi et chacun doit la respecter"
+      ],
+      "wrong": [
+        "Oui, si elle est contraire à ses convictions religieuses",
+        "Oui, si l'on n'a pas voté pour les députés qui l'ont adoptée",
+        "Oui, si l'on ne connaissait pas l'existence de cette loi"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-53",
+      "sourceIds": [
+        53
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Comment sont désignés les députés ?",
+      "answers": [
+        "Ils sont élus par les citoyens lors des élections législatives"
+      ],
+      "wrong": [
+        "Ils sont élus par les conseillers municipaux et départementaux",
+        "Ils sont nommés par le Premier ministre",
+        "Ils sont désignés par les partis politiques selon leurs résultats"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-54",
+      "sourceIds": [
+        54
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui vote les lois ?",
+      "answers": [
+        "Le Parlement",
+        "L'Assemblée nationale et le Sénat",
+        "Les députés et les sénateurs"
+      ],
+      "wrong": [
+        "Le Gouvernement, réuni en Conseil des ministres",
+        "Le Conseil constitutionnel",
+        "Le président de la République, qui les promulgue"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-55",
+      "sourceIds": [
+        55
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+      "answers": [
+        "Le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire"
+      ],
+      "wrong": [
+        "Le pouvoir exécutif, le pouvoir législatif et le pouvoir médiatique",
+        "Le pouvoir présidentiel, le pouvoir gouvernemental et le pouvoir parlementaire",
+        "Le pouvoir législatif, le pouvoir constitutionnel et le pouvoir judiciaire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-56",
+      "sourceIds": [
+        56
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qu'est-ce que l'État de droit ?",
+      "answers": [
+        "Un système où la puissance publique (l'État) est soumise au droit",
+        "Un régime où tout le monde, y compris le gouvernement, doit respecter la loi",
+        "Le contraire de l'arbitraire ou de la dictature"
+      ],
+      "wrong": [
+        "Un État où les lois sont votées directement par les citoyens",
+        "Un État qui garantit des droits sociaux à tous ses habitants",
+        "Un État dont les dirigeants sont au-dessus des lois pendant leur mandat"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-57",
+      "sourceIds": [
+        57
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelles sont les durées du mandat du conseil municipal et du maire ?",
+      "answers": [
+        "6 ans"
+      ],
+      "wrong": [
+        "4 ans",
+        "5 ans",
+        "7 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-58",
+      "sourceIds": [
+        58
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui est élu lors des élections législatives ?",
+      "answers": [
+        "Les députés"
+      ],
+      "wrong": [
+        "Les sénateurs",
+        "Les conseillers régionaux",
+        "Les maires"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-59",
+      "sourceIds": [
+        59
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat du Président de la République française ?",
+      "answers": [
+        "5 ans"
+      ],
+      "wrong": [
+        "4 ans",
+        "6 ans",
+        "7 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-60",
+      "sourceIds": [
+        60
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat des députés ?",
+      "answers": [
+        "5 ans"
+      ],
+      "wrong": [
+        "3 ans",
+        "6 ans",
+        "9 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-61",
+      "sourceIds": [
+        61
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle est la durée du mandat des sénateurs ?",
+      "answers": [
+        "6 ans"
+      ],
+      "wrong": [
+        "5 ans",
+        "7 ans",
+        "9 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-62",
+      "sourceIds": [
+        62
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui dirige l'action du gouvernement ?",
+      "answers": [
+        "Le Premier ministre"
+      ],
+      "wrong": [
+        "Le président de la République",
+        "Le président de l'Assemblée nationale",
+        "Le ministre de l'Intérieur"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-63",
+      "sourceIds": [
+        63
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "En France, est-ce possible d'adhérer à un parti politique ?",
+      "answers": [
+        "Oui, c'est un droit fondamental",
+        "Oui, la liberté d'opinion politique est garantie par la Constitution",
+        "Oui, les partis se forment et exercent leur activité librement"
+      ],
+      "wrong": [
+        "Oui, mais seulement à partir de 21 ans",
+        "Oui, mais seulement à un parti représenté au Parlement",
+        "Non, sauf pour les personnes candidates à une élection"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-64",
+      "sourceIds": [
+        64
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui sanctionne l'auteur d'un vol ?",
+      "answers": [
+        "Le juge ou le tribunal",
+        "Le pouvoir judiciaire",
+        "Le tribunal correctionnel"
+      ],
+      "wrong": [
+        "Le commissaire de police, qui fixe la peine",
+        "Le préfet du département",
+        "Le maire de la commune où le vol a eu lieu"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-65",
+      "sourceIds": [
+        65
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui gère les collèges publics ?",
+      "answers": [
+        "Le département (conseil départemental)",
+        "La collectivité départementale"
+      ],
+      "wrong": [
+        "La région (conseil régional), comme pour les lycées",
+        "La commune, comme pour les écoles maternelles",
+        "L'État, par l'intermédiaire de la préfecture"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-66",
+      "sourceIds": [
+        66
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui gère les écoles primaires et maternelles publiques ?",
+      "answers": [
+        "La commune (la mairie)",
+        "La municipalité"
+      ],
+      "wrong": [
+        "La région, comme pour les lycées",
+        "Le département (conseil départemental), comme pour les collèges",
+        "L'État, par l'intermédiaire de la préfecture"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-67",
+      "sourceIds": [
+        67
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Comment sont désignés les maires ?",
+      "answers": [
+        "Par élection par le conseil municipal"
+      ],
+      "wrong": [
+        "Par élection directe par les habitants de la commune",
+        "Par nomination du préfet",
+        "Par désignation du président du conseil départemental"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-68",
+      "sourceIds": [
+        68
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle collectivité territoriale est responsable des transports régionaux ?",
+      "answers": [
+        "La région"
+      ],
+      "wrong": [
+        "Le département",
+        "La commune",
+        "L'État, par le ministère des Transports"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-69",
+      "sourceIds": [
+        69
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quelle est l'une des voies possibles pour modifier la Constitution ?",
+      "answers": [
+        "Par référendum (vote des citoyens)",
+        "Par le vote du Congrès (réunion des députés et sénateurs à Versailles)"
+      ],
+      "wrong": [
+        "Par une ordonnance du Gouvernement",
+        "Par une décision du Conseil constitutionnel",
+        "Par un vote de l'Assemblée nationale seule (majorité simple)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-70",
+      "sourceIds": [
+        70
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui assure l'intérim du président de la République en cas de décès ?",
+      "answers": [
+        "Le Président du Sénat"
+      ],
+      "wrong": [
+        "Le Premier ministre",
+        "Le président de l'Assemblée nationale",
+        "Le ministre de l'Intérieur"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-71",
+      "sourceIds": [
+        71
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Conseil constitutionnel ?",
+      "answers": [
+        "Vérifier que les lois respectent la Constitution"
+      ],
+      "wrong": [
+        "Juger en dernier recours les affaires civiles et pénales",
+        "Conseiller le Gouvernement et juger les litiges avec l'administration",
+        "Contrôler la bonne utilisation de l'argent public"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-73",
+      "sourceIds": [
+        73
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Combien y a-t-il de départements en France ?",
+      "answers": [
+        "101"
+      ],
+      "wrong": [
+        "96",
+        "100",
+        "103"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-74",
+      "sourceIds": [
+        74
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Comment est organisé le découpage administratif de la France ?",
+      "answers": [
+        "Régions, départements, communes"
+      ],
+      "wrong": [
+        "Provinces, départements, communes",
+        "Régions, provinces, communes",
+        "États fédérés, départements, communes"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-75",
+      "sourceIds": [
+        75
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui représente l'État dans un département ?",
+      "answers": [
+        "Le préfet"
+      ],
+      "wrong": [
+        "Le président du conseil départemental",
+        "Le maire du chef-lieu",
+        "Le député de la circonscription"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-76",
+      "sourceIds": [
+        76
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Président de la République ?",
+      "answers": [
+        "Il est le chef de l'Etat",
+        "Il est le garant de la Constitution et de l'intégrité du territoire",
+        "Il nomme le Premier ministre et préside le Conseil des ministres",
+        "Il est le chef des armées et promulgue les lois"
+      ],
+      "wrong": [
+        "Il dirige l'action du Gouvernement",
+        "Il vote le budget de l'État",
+        "Il est responsable devant l'Assemblée nationale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-77",
+      "sourceIds": [
+        77
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Premier ministre ?",
+      "answers": [
+        "Il dirige l'action du Gouvernement",
+        "Il assure l'exécution des lois et dirige l'administration",
+        "Il est responsable devant le Parlement"
+      ],
+      "wrong": [
+        "Il préside le Conseil des ministres chaque semaine",
+        "Il est le chef des armées et de la diplomatie",
+        "Il promulgue les lois votées par le Parlement"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-78",
+      "sourceIds": [
+        78
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est le rôle du Défenseur des droits ?",
+      "answers": [
+        "Veiller au respect des droits et libertés",
+        "Lutter contre les discriminations",
+        "Défendre les droits de l'enfant et la déontologie de la sécurité"
+      ],
+      "wrong": [
+        "Défendre les personnes accusées devant les tribunaux, comme un avocat",
+        "Vérifier que les lois respectent la Constitution",
+        "Représenter la France devant la Cour européenne des droits de l'homme"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-79",
+      "sourceIds": [
+        79
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+      "answers": [
+        "1992 (traité de Maastricht)"
+      ],
+      "wrong": [
+        "1957 (traités de Rome)",
+        "1979 (première élection du Parlement européen)",
+        "2002 (arrivée des pièces et billets en euros)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-80",
+      "sourceIds": [
+        80
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est le dernier Etat à avoir intégré l'Union Européenne en 2013 ?",
+      "answers": [
+        "La Croatie"
+      ],
+      "wrong": [
+        "La Roumanie",
+        "La Bulgarie",
+        "La Norvège"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-81",
+      "sourceIds": [
+        81
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui a composé l'hymne de l'Union européenne ?",
+      "answers": [
+        "Ludwig van Beethoven"
+      ],
+      "wrong": [
+        "Wolfgang Amadeus Mozart",
+        "Claude Debussy",
+        "Frédéric Chopin"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-82",
+      "sourceIds": [
+        82
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quand est célébrée la journée de l'Europe ?",
+      "answers": [
+        "Le 9 mai"
+      ],
+      "wrong": [
+        "Le 8 mai",
+        "Le 25 mars",
+        "Le 9 novembre"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-83",
+      "sourceIds": [
+        83
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Où est le siège de la Banque centrale européenne ?",
+      "answers": [
+        "Francfort"
+      ],
+      "wrong": [
+        "Bruxelles",
+        "Strasbourg",
+        "Luxembourg"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-84",
+      "sourceIds": [
+        84
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Où est le siège de la Commission européenne ?",
+      "answers": [
+        "Bruxelles"
+      ],
+      "wrong": [
+        "Strasbourg",
+        "Luxembourg",
+        "Francfort"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-85",
+      "sourceIds": [
+        85
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui siège au Parlement européen ?",
+      "answers": [
+        "Des eurodéputés élus par les citoyens des États membres",
+        "Des eurodéputés (ou députés européens)",
+        "Des représentants élus directement par les citoyens européens"
+      ],
+      "wrong": [
+        "Des commissaires européens (un par État membre)",
+        "Les chefs d'État et de gouvernement des États membres",
+        "Des députés nationaux désignés par chaque parlement national"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-86",
+      "sourceIds": [
+        86
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre Etat de l'Union ?",
+      "answers": [
+        "Oui, aux élections municipales du pays où ils résident"
+      ],
+      "wrong": [
+        "Non, seulement aux élections européennes",
+        "Oui, à toutes les élections locales, y compris régionales et départementales",
+        "Non, seulement aux élections de leur pays d'origine"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-87",
+      "sourceIds": [
+        87
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+      "answers": [
+        "27"
+      ],
+      "wrong": [
+        "25",
+        "28",
+        "30"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-88",
+      "sourceIds": [
+        88
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+      "answers": [
+        "1992"
+      ],
+      "wrong": [
+        "1957",
+        "1986",
+        "2007"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-89",
+      "sourceIds": [
+        89
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel traité concerne la construction de l'Union européenne ?",
+      "answers": [
+        "Le traité de Maastricht (1992) pour la création de l'Union européenne",
+        "Le traité de Rome (1957) pour la création de la CEE"
+      ],
+      "wrong": [
+        "Le traité de Versailles (1919) pour la création de la Société des Nations",
+        "Le traité de l'Atlantique Nord (1949) pour la création de l'OTAN",
+        "La Charte de San Francisco (1945) pour la création de l'ONU"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-90",
+      "sourceIds": [
+        90
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel État a quitté l'Union Européenne en 2020 ?",
+      "answers": [
+        "Le Royaume-Uni"
+      ],
+      "wrong": [
+        "L'Irlande",
+        "Le Danemark",
+        "La Suède"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-91",
+      "sourceIds": [
+        91
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Quel est l'hymne de l'Union Européenne ?",
+      "answers": [
+        "L'Ode à la Joie"
+      ],
+      "wrong": [
+        "La Marseillaise",
+        "Le Boléro de Ravel",
+        "Le Beau Danube bleu"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-92",
+      "sourceIds": [
+        92
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "De quoi est composé le drapeau européen ?",
+      "answers": [
+        "12 étoiles dorées sur fond bleu",
+        "Un cercle de 12 étoiles d'or"
+      ],
+      "wrong": [
+        "27 étoiles dorées sur fond bleu, une par État membre",
+        "12 étoiles blanches sur fond rouge",
+        "Un cercle de 28 étoiles d'or"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-93",
+      "sourceIds": [
+        93
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Qui élit les députés européens ?",
+      "answers": [
+        "Les citoyens des États membres"
+      ],
+      "wrong": [
+        "Les députés de chaque parlement national",
+        "Les chefs d'État et de gouvernement, réunis en Conseil européen",
+        "Les membres de la Commission européenne"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-94",
+      "sourceIds": [
+        94
+      ],
+      "theme": "Système institutionnel et politique",
+      "question": "Où est le siège du Parlement européen ?",
+      "answers": [
+        "Strasbourg"
+      ],
+      "wrong": [
+        "Bruxelles",
+        "Francfort",
+        "Genève"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-95",
+      "sourceIds": [
+        95
+      ],
+      "theme": "Droits et devoirs",
+      "question": "À quoi sert le droit de grève ?",
+      "answers": [
+        "À permettre aux salariés de cesser collectivement le travail pour défendre leurs intérêts professionnels",
+        "À défendre les intérêts professionnels des salariés",
+        "À revendiquer de meilleures conditions de travail ou de salaire"
+      ],
+      "wrong": [
+        "À permettre à un salarié de s'absenter seul, pour un motif personnel",
+        "À obliger l'employeur à payer les jours de grève",
+        "À permettre aux salariés de cesser le travail pour soutenir un parti politique"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-96",
+      "sourceIds": [
+        96
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+      "answers": [
+        "Pour l'intérêt général et la sécurité de tous",
+        "Pour préserver l'ordre public et la sécurité",
+        "Au nom de l'intérêt général",
+        "Pour protéger les droits et libertés d'autrui"
+      ],
+      "wrong": [
+        "Pour protéger le Gouvernement contre les critiques",
+        "Pour protéger les traditions religieuses de la majorité",
+        "Pour réduire les dépenses de l'administration"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-97",
+      "sourceIds": [
+        97
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+      "answers": [
+        "\"Les hommes naissent et demeurent libres et égaux en droits.\" (Article 1)",
+        "\"La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui.\" (Article 4)",
+        "\"La loi est l'expression de la volonté générale.\" (Article 6)",
+        "\"Nul ne doit être inquiété pour ses opinions, même religieuses.\" (Article 10)",
+        "\"Tout homme étant présumé innocent jusqu'à ce qu'il ait été déclaré coupable.\" (Article 9)"
+      ],
+      "wrong": [
+        "\"La République est indivisible, laïque, démocratique et sociale.\" (Article 2)",
+        "\"Le droit de grève s'exerce dans le cadre des lois qui le réglementent.\" (Article 7)",
+        "\"Chacun a le devoir de travailler et le droit d'obtenir un emploi.\" (Article 5)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-98",
+      "sourceIds": [
+        98
+      ],
+      "theme": "Droits et devoirs",
+      "question": "L'article 4 de la Déclaration des droits de l'homme et du citoyen affirme que \"la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui\". Qu'est-ce que cela signifie ?",
+      "answers": [
+        "Que la liberté individuelle s'arrête là où commence celle des autres",
+        "Que la liberté est limitée par le respect des droits d'autrui et par la loi"
+      ],
+      "wrong": [
+        "Que la liberté de chacun dépend de l'autorisation préalable de l'État",
+        "Que chez soi, on peut tout faire, même si cela nuit à ses voisins",
+        "Que la liberté concerne les opinions, mais jamais les actes"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-100",
+      "sourceIds": [
+        100
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Que garantit la liberté de la presse ?",
+      "answers": [
+        "Que les médias peuvent publier des informations sans censure préalable de l'État",
+        "La liberté de diffuser des opinions, régie par la loi du 29 juillet 1881",
+        "Le pluralisme des médias et l'indépendance des journalistes"
+      ],
+      "wrong": [
+        "Le droit de publier des accusations fausses sans risquer de poursuites",
+        "La relecture des articles par un comité de l'État avant leur publication",
+        "Le financement de tous les journaux par l'État, à parts égales"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-101",
+      "sourceIds": [
+        101
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Que permet la liberté de circulation ?",
+      "answers": [
+        "De se déplacer et de résider librement sur le territoire national",
+        "Le droit d'aller et venir librement sur l'ensemble du territoire national",
+        "Le droit de se déplacer d'une ville à une autre sans autorisation",
+        "Le droit de choisir librement son lieu de résidence (son domicile)"
+      ],
+      "wrong": [
+        "De se rendre dans tous les pays du monde sans passeport ni visa",
+        "De circuler partout, y compris dans les terrains et les logements privés",
+        "De ne jamais être contrôlé par la police lors de ses déplacements"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-102",
+      "sourceIds": [
+        102
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Que signifie être citoyen d'un État ?",
+      "answers": [
+        "Avoir des droits (notamment de vote) et des devoirs envers cet État",
+        "Avoir la nationalité d'un État et jouir de droits politiques (vote)",
+        "Participer à la souveraineté nationale"
+      ],
+      "wrong": [
+        "Habiter dans un pays, quelle que soit sa nationalité",
+        "Payer ses impôts dans cet État, ce qui donne le droit de vote",
+        "Être né sur le territoire de cet État"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-103",
+      "sourceIds": [
+        103
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Que sont les droits fondamentaux ?",
+      "answers": [
+        "Des droits essentiels et inaliénables garantis par la Constitution",
+        "Des droits essentiels garantis par la Constitution et les textes internationaux",
+        "Des libertés inaliénables que l'État ne peut pas supprimer"
+      ],
+      "wrong": [
+        "Des droits accordés seulement aux citoyens de nationalité française",
+        "Des droits que le Gouvernement peut suspendre librement par décret",
+        "Des droits réservés aux personnes majeures"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-104",
+      "sourceIds": [
+        104
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quel droit protège une personne contre une arrestation arbitraire ?",
+      "answers": [
+        "Le droit à la sûreté"
+      ],
+      "wrong": [
+        "Le droit de propriété",
+        "Le droit à la sécurité sociale",
+        "La liberté de conscience"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-105",
+      "sourceIds": [
+        105
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
+      "answers": [
+        "La Déclaration des Droits de l'Homme et du Citoyen de 1789"
+      ],
+      "wrong": [
+        "Le Code civil de 1804",
+        "La loi de séparation des Églises et de l'État de 1905",
+        "La Constitution de la IIIe République de 1875"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-106",
+      "sourceIds": [
+        106
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quel texte affirme que tous les hommes naissent libres et égaux en droits ?",
+      "answers": [
+        "La Déclaration des Droits de l'Homme et du Citoyen de 1789"
+      ],
+      "wrong": [
+        "Le Code civil de 1804",
+        "L'édit de Nantes de 1598",
+        "La loi de séparation des Églises et de l'État de 1905"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-107",
+      "sourceIds": [
+        107
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quelle situation est une atteinte à la dignité humaine ?",
+      "answers": [
+        "Être soumis à des conditions de travail ou de vie dégradantes (esclavage moderne)",
+        "Subir des tortures ou des traitements inhumains",
+        "Être traité comme un objet ou une marchandise (traite des êtres humains)"
+      ],
+      "wrong": [
+        "Être contrôlé par la police lors d'un contrôle d'identité légal",
+        "Devoir payer une amende (par exemple pour un excès de vitesse)",
+        "Être licencié pour faute grave après une procédure régulière"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-108",
+      "sourceIds": [
+        108
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Qu'est-ce que la liberté d'expression ?",
+      "answers": [
+        "Le droit de communiquer ses idées et opinions, dans le respect de la loi",
+        "La liberté de communication des pensées, sauf abus réprimés par la loi"
+      ],
+      "wrong": [
+        "Le droit de s'exprimer seulement sur les sujets autorisés par l'État",
+        "Le droit de s'exprimer librement, mais uniquement en privé",
+        "Le droit de tout dire, y compris des injures et des appels à la violence"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-109",
+      "sourceIds": [
+        109
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Suite à une interpellation par la police, il est possible de :",
+      "answers": [
+        "Demander l'assistance d'un avocat",
+        "Demander à voir un médecin",
+        "Garder le silence (ne pas répondre aux questions)",
+        "Faire prévenir un proche ou son employeur"
+      ],
+      "wrong": [
+        "Refuser de donner son identité et repartir librement",
+        "Demander à être jugé immédiatement par le commissaire",
+        "Exiger la présence du maire (ou d'un élu local) pendant l'audition"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-110",
+      "sourceIds": [
+        110
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Tous les citoyens français ont-ils une religion ?",
+      "answers": [
+        "Non, la religion est un choix individuel (liberté de conscience)",
+        "Non, chacun est libre de croire ou de ne pas croire"
+      ],
+      "wrong": [
+        "Oui, la religion des parents est inscrite à l'état civil de l'enfant",
+        "Oui, la France a une religion officielle (le catholicisme)",
+        "Oui, il faut déclarer une religion pour se marier à la mairie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-111",
+      "sourceIds": [
+        111
+      ],
+      "theme": "Droits et devoirs",
+      "question": "À quel âge est la majorité numérique en France ?",
+      "answers": [
+        "15 ans"
+      ],
+      "wrong": [
+        "13 ans",
+        "16 ans",
+        "18 ans"
+      ],
+      "corrections": [
+        {
+          "reason": "Le seuil de 15 ans concerne notamment le consentement à certains traitements de données. La CNIL précise qu'il ne s'agit pas d'une majorité numérique générale donnant tous les droits d'un adulte.",
+          "source": "https://www.cnil.fr/fr/recommandation-1-encadrer-la-capacite-dagir-des-mineurs-en-ligne"
+        }
+      ]
+    },
+    {
+      "id": "q-112",
+      "sourceIds": [
+        112
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Dans lequel de ces endroits est-on autorisé à fumer ?",
+      "answers": [
+        "À son domicile"
+      ],
+      "wrong": [
+        "Sur une aire de jeux pour enfants",
+        "Dans la cour d'un lycée",
+        "À l'intérieur d'un bar ou d'un restaurant"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-113",
+      "sourceIds": [
+        113
+      ],
+      "theme": "Droits et devoirs",
+      "question": "En France, la conduite sans permis d'une moto est :",
+      "answers": [
+        "Une infraction grave",
+        "Un délit puni par la loi",
+        "Passible d'un an de prison et de 15 000 € d'amende"
+      ],
+      "wrong": [
+        "Une simple contravention, punie d'une amende de 35 €",
+        "Tolérée si le conducteur est accompagné d'un titulaire du permis",
+        "Autorisée dès lors que la moto est assurée"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-114",
+      "sourceIds": [
+        114
+      ],
+      "theme": "Droits et devoirs",
+      "question": "En quoi consiste le devoir de solidarité ?",
+      "answers": [
+        "À contribuer au bien commun (impôts, cotisations) et à porter secours",
+        "Contribuer au financement de la protection sociale et porter secours",
+        "Payer l'impôt et assister les personnes en danger"
+      ],
+      "wrong": [
+        "À donner chaque année une somme fixe à une association",
+        "À partager son logement avec des personnes sans abri",
+        "À aider seulement les membres de sa famille (parents, enfants)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-115",
+      "sourceIds": [
+        115
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "answers": [
+        "Non, la polygamie est interdite en France"
+      ],
+      "wrong": [
+        "Oui, si la première épouse donne son accord par écrit",
+        "Oui, à condition que les époux vivent à des adresses différentes",
+        "Oui, si la religion des époux l'autorise"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-117",
+      "sourceIds": [
+        117
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Est-il obligatoire de porter secours à une personne en danger ?",
+      "answers": [
+        "Oui, lorsque l'on peut agir sans danger pour soi ou pour autrui, notamment en alertant les secours"
+      ],
+      "wrong": [
+        "Non, c'est seulement un devoir moral, sans sanction prévue par la loi",
+        "Oui, mais seulement pour les médecins et les secouristes",
+        "Oui, même si l'on doit mettre sa propre vie en danger"
+      ],
+      "corrections": [
+        {
+          "reason": "L'obligation d'assistance ne demande pas de se mettre soi-même ou de mettre une autre personne en danger. Appeler les secours peut constituer l'assistance adaptée.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+        }
+      ]
+    },
+    {
+      "id": "q-118",
+      "sourceIds": [
+        118
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Être juré d'assises est :",
+      "answers": [
+        "Un devoir civique obligatoire",
+        "Une participation directe des citoyens à la justice criminelle"
+      ],
+      "wrong": [
+        "Une fonction volontaire, réservée aux citoyens qui se portent candidats",
+        "Un métier exercé par des juges professionnels",
+        "Une obligation réservée aux fonctionnaires"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-119",
+      "sourceIds": [
+        119
+      ],
+      "theme": "Droits et devoirs",
+      "question": "La vente d'alcool en France est interdite aux personnes de moins de :",
+      "answers": [
+        "18 ans"
+      ],
+      "wrong": [
+        "16 ans",
+        "17 ans",
+        "21 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-120",
+      "sourceIds": [
+        120
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Le non-respect du code de la route est :",
+      "answers": [
+        "Une infraction qui entraîne des sanctions (amende, retrait de points)",
+        "Une contravention ou un délit selon la gravité"
+      ],
+      "wrong": [
+        "Une infraction sanctionnée seulement si elle provoque un accident",
+        "Une infraction sanctionnée seulement pour les jeunes conducteurs (permis probatoire)",
+        "Sanctionné par une amende, mais jamais par un retrait de points"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-121",
+      "sourceIds": [
+        121
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Lequel de ces crimes ou délits peut entrainer la privation des droits civils et politiques par un juge ?",
+      "answers": [
+        "Une fraude électorale (tricher lors d'une élection)",
+        "Des faits de corruption ou de détournement de fonds publics",
+        "Un crime de trahison ou d'espionnage",
+        "Des actes de terrorisme",
+        "Une falsification de documents officiels",
+        "Une falsification de chèques"
+      ],
+      "wrong": [
+        "Un léger excès de vitesse (moins de 20 km/h)",
+        "Un retard dans la déclaration de ses revenus",
+        "Le tapage nocturne, sanctionné par une contravention"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-122",
+      "sourceIds": [
+        122
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Pour obtenir une carte d'identité, il faut :",
+      "answers": [
+        "Être de nationalité française"
+      ],
+      "wrong": [
+        "Résider en France depuis au moins cinq ans",
+        "Avoir au moins 18 ans",
+        "Être inscrit sur les listes électorales"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-123",
+      "sourceIds": [
+        123
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+      "answers": [
+        "Pour sanctionner un discours de haine",
+        "Pour punir l'incitation à la haine ou au racisme"
+      ],
+      "wrong": [
+        "Pour sanctionner une caricature d'une religion",
+        "Pour empêcher la critique d'un responsable politique",
+        "Pour interdire l'expression pacifique d'une opinion d'opposition"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-124",
+      "sourceIds": [
+        124
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Que doit faire un citoyen s'il est appelé à être juré dans un procès d'assises ?",
+      "answers": [
+        "Il est obligé de siéger, sauf motif grave reconnu valable",
+        "C'est une obligation civique, on ne peut pas refuser (sauf motif grave)",
+        "Il est obligé de siéger sous peine d'amende (3 750 €)"
+      ],
+      "wrong": [
+        "Il peut refuser librement, sans avoir à se justifier",
+        "Il peut se faire remplacer (par exemple par un membre de sa famille)",
+        "Il doit d'abord réussir un examen de droit pour être accepté"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-125",
+      "sourceIds": [
+        125
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quel est l'âge de la majorité civile en France ?",
+      "answers": [
+        "18 ans"
+      ],
+      "wrong": [
+        "16 ans",
+        "20 ans",
+        "21 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-126",
+      "sourceIds": [
+        126
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quel est l'un des devoirs principaux d'un citoyen français ?",
+      "answers": [
+        "Respecter la loi et les droits des autres",
+        "Contribuer au financement des services publics (payer l'impôt)",
+        "Participer à la défense nationale (recensement, Journée défense et citoyenneté)"
+      ],
+      "wrong": [
+        "Voter à toutes les élections, sous peine d'une amende de 135 €",
+        "Effectuer un service militaire obligatoire (un an, dès 18 ans)",
+        "Adhérer à une association ou à un syndicat de sa commune"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-127",
+      "sourceIds": [
+        127
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Quelle est l'infraction la plus grave ?",
+      "answers": [
+        "Le crime"
+      ],
+      "wrong": [
+        "La contravention",
+        "Le délit",
+        "La faute disciplinaire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-128",
+      "sourceIds": [
+        128
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Qu'est-ce que la citoyenneté numérique ?",
+      "answers": [
+        "L'utilisation responsable des outils numériques pour participer à la vie démocratique",
+        "Avoir un comportement responsable et respectueux sur internet",
+        "Respecter la loi et la politesse dans l'espace numérique"
+      ],
+      "wrong": [
+        "Le fait de posséder une identité numérique délivrée par l'État",
+        "Le droit de tout publier en ligne sous un pseudonyme, sans responsabilité",
+        "L'obligation d'effectuer toutes ses démarches administratives en ligne"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-129",
+      "sourceIds": [
+        129
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Qu'est-ce que le devoir de mémoire ?",
+      "answers": [
+        "Une obligation morale de se souvenir des souffrances du passé pour éviter qu'elles ne se reproduisent",
+        "Se souvenir des événements tragiques du passé pour défendre la démocratie",
+        "L'obligation morale de ne pas oublier les victimes de l'histoire (Guerres, Shoah, Esclavage)"
+      ],
+      "wrong": [
+        "L'obligation d'apprendre par cœur les dates de l'histoire (batailles, rois, traités)",
+        "Le devoir de conserver les archives et les photos de sa famille",
+        "L'obligation de pardonner les crimes du passé pour pouvoir avancer ensemble"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-130",
+      "sourceIds": [
+        130
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Qui peut être appelé à faire partie d'un jury d'assises en France ?",
+      "answers": [
+        "Des citoyens français tirés au sort sur les listes électorales et remplissant les conditions légales pour être jurés"
+      ],
+      "wrong": [
+        "Des magistrats professionnels nommés par le ministre de la Justice pour chaque procès",
+        "Des volontaires inscrits auprès du tribunal, quelle que soit leur nationalité",
+        "Des citoyens français élus par le conseil municipal de leur commune pour un an"
+      ],
+      "corrections": [
+        {
+          "reason": "Le tirage au sort ne suffit pas : des conditions d'âge, de maîtrise du français, de droits civiques et d'absence d'incompatibilité s'appliquent également.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"
+        }
+      ]
+    },
+    {
+      "id": "q-131",
+      "sourceIds": [
+        131
+      ],
+      "theme": "Droits et devoirs",
+      "question": "Une personne est privée de ses droits civils et politiques pendant 5 ans suite à une condamnation. Parmi ces propositions laquelle est correcte ? Pendant 5 ans,...",
+      "answers": [
+        "Elle ne peut plus voter ni se présenter aux élections"
+      ],
+      "wrong": [
+        "Elle peut voter à condition de ne pas être candidate",
+        "Elle peut se présenter aux élections, mais ne peut pas voter",
+        "Elle peut voter, mais seulement aux élections municipales"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-132",
+      "sourceIds": [
+        132
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+      "answers": [
+        "Le Code civil"
+      ],
+      "wrong": [
+        "Les lois Jules Ferry sur l'école",
+        "La loi de séparation des Églises et de l'État",
+        "La Déclaration des droits de l'homme et du citoyen de 1789"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-133",
+      "sourceIds": [
+        133
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui a été président de la Ve République ?",
+      "answers": [
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Valéry Giscard d'Estaing",
+        "François Mitterrand",
+        "Jacques Chirac",
+        "Nicolas Sarkozy",
+        "François Hollande",
+        "Emmanuel Macron"
+      ],
+      "wrong": [
+        "René Coty",
+        "Vincent Auriol",
+        "Jules Grévy"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-134",
+      "sourceIds": [
+        134
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est l'objectif des lois scolaires de la IIIe République ?",
+      "answers": [
+        "Créer une école publique, gratuite et laïque"
+      ],
+      "wrong": [
+        "Rendre l'école obligatoire jusqu'à 18 ans",
+        "Créer le baccalauréat et les lycées",
+        "Confier l'instruction des enfants à l'Église catholique"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-136",
+      "sourceIds": [
+        136
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Pourquoi l'année 1958 est importante pour la France ?",
+      "answers": [
+        "Elle marque la naissance de la Cinquième République",
+        "L'adoption de la Constitution de la Ve République"
+      ],
+      "wrong": [
+        "Elle marque l'obtention du droit de vote par les femmes",
+        "Elle marque la signature du traité de Rome",
+        "Elle marque la fin de la guerre d'Algérie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-137",
+      "sourceIds": [
+        137
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Lequel de ces pays est un pays fondateur de l'Union Européenne ?",
+      "answers": [
+        "L'Italie",
+        "La France",
+        "L'Allemagne",
+        "La Belgique",
+        "Les Pays-Bas",
+        "Le Luxembourg"
+      ],
+      "wrong": [
+        "Le Royaume-Uni",
+        "L'Espagne",
+        "Le Danemark"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-138",
+      "sourceIds": [
+        138
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Simone Veil est une figure importante de l'histoire française. Elle a notamment :",
+      "answers": [
+        "Fait voter la loi autorisant l'avortement en France",
+        "Porté la loi sur l'Interruption Volontaire de Grossesse (IVG)"
+      ],
+      "wrong": [
+        "Fait voter l'abolition de la peine de mort en France",
+        "Obtenu le droit de vote des femmes (ordonnance de 1944)",
+        "Écrit Le Deuxième Sexe"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-139",
+      "sourceIds": [
+        139
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Dans quelle région est située une partie des plages du débarquement ayant permis d'engager la libération de la France ?",
+      "answers": [
+        "La Normandie"
+      ],
+      "wrong": [
+        "La Bretagne",
+        "Les Hauts-de-France",
+        "La Nouvelle-Aquitaine"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-140",
+      "sourceIds": [
+        140
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Dans quelle ville les rois de France étaient-ils couronnés ?",
+      "answers": [
+        "Reims"
+      ],
+      "wrong": [
+        "Paris",
+        "Versailles",
+        "Lyon"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-141",
+      "sourceIds": [
+        141
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel roi de France a été guillotiné pendant la Révolution française ?",
+      "answers": [
+        "Louis XVI"
+      ],
+      "wrong": [
+        "Louis XIV",
+        "Louis XV",
+        "Henri IV"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-142",
+      "sourceIds": [
+        142
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "En quelle année a débuté la Révolution française ?",
+      "answers": [
+        "1789"
+      ],
+      "wrong": [
+        "1792",
+        "1815",
+        "1848"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-143",
+      "sourceIds": [
+        143
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+      "answers": [
+        "1804"
+      ],
+      "wrong": [
+        "1789",
+        "1799",
+        "1815"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-144",
+      "sourceIds": [
+        144
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Lequel de ces personnages a un lien avec la République française ?",
+      "answers": [
+        "Jules Ferry (L'école)",
+        "Victor Hugo (L'écrivain engagé)",
+        "Jean Jaurès (Le défenseur des ouvriers)",
+        "Charles de Gaulle (Le libérateur)"
+      ],
+      "wrong": [
+        "Louis XIV (Le Roi-Soleil)",
+        "Charlemagne (L'empereur d'Occident)",
+        "Marie-Antoinette (La reine de France)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-145",
+      "sourceIds": [
+        145
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+      "answers": [
+        "18 juin 1940"
+      ],
+      "wrong": [
+        "22 juin 1940",
+        "6 juin 1944",
+        "8 mai 1945"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-146",
+      "sourceIds": [
+        146
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qu'est-ce que la Shoah ?",
+      "answers": [
+        "Le génocide des Juifs par les Nazis pendant la Seconde Guerre mondiale",
+        "L'extermination (ou le génocide) des Juifs d'Europe par le régime nazi",
+        "Le génocide systématique perpétré contre le peuple juif pendant la Seconde Guerre mondiale"
+      ],
+      "wrong": [
+        "Le génocide des Arméniens pendant la Première Guerre mondiale",
+        "Le bombardement atomique d'Hiroshima et de Nagasaki en 1945",
+        "La persécution des chrétiens dans l'Empire romain"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-147",
+      "sourceIds": [
+        147
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel pays a été une colonie française ?",
+      "answers": [
+        "Le Sénégal",
+        "L'Algérie",
+        "Le Mali",
+        "La Côte d'Ivoire",
+        "Le Viêt Nam"
+      ],
+      "wrong": [
+        "Le Ghana",
+        "Le Kenya",
+        "Le Mozambique"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-148",
+      "sourceIds": [
+        148
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
+      "answers": [
+        "Jules Ferry"
+      ],
+      "wrong": [
+        "Jean Jaurès",
+        "Victor Hugo",
+        "Napoléon Ier"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-149",
+      "sourceIds": [
+        149
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+      "answers": [
+        "Depuis la réforme de 1962, appliquée pour la première fois en 1965 sous la Ve République"
+      ],
+      "wrong": [
+        "Depuis 1958, dès l'adoption de la Constitution de la Ve République",
+        "Depuis 1875, sous la IIIe République",
+        "Depuis 2000, avec le passage au quinquennat"
+      ],
+      "corrections": [
+        {
+          "reason": "1962 est l'année de la réforme constitutionnelle. La première élection selon ce nouveau mode de scrutin sous la Ve République a lieu en 1965 ; distinguer la règle et sa première application évite une confusion.",
+          "source": "https://www.elysee.fr/la-presidence/l-election-des-presidents-de-la-republique-depuis-195"
+        }
+      ]
+    },
+    {
+      "id": "q-150",
+      "sourceIds": [
+        150
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "En quelle année l'Union européenne a-t-elle été fondée?",
+      "answers": [
+        "1993, à l'entrée en vigueur du traité de Maastricht, signé en 1992"
+      ],
+      "wrong": [
+        "1957, à la signature des traités de Rome",
+        "1951, à la signature du traité instituant la CECA",
+        "2009, à l'entrée en vigueur du traité de Lisbonne"
+      ],
+      "corrections": [
+        {
+          "reason": "Le traité de Maastricht a été signé le 7 février 1992 ; il crée formellement l'Union européenne à son entrée en vigueur le 1er novembre 1993.",
+          "source": "https://www.consilium.europa.eu/fr/history/"
+        }
+      ]
+    },
+    {
+      "id": "q-151",
+      "sourceIds": [
+        151
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quand a eu lieu la Seconde guerre mondiale ?",
+      "answers": [
+        "1939-1945"
+      ],
+      "wrong": [
+        "1914-1918",
+        "1870-1871",
+        "1954-1962"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-152",
+      "sourceIds": [
+        152
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quand a eu lieu la Première guerre mondiale ?",
+      "answers": [
+        "1914-1918"
+      ],
+      "wrong": [
+        "1939-1945",
+        "1870-1871",
+        "1946-1954"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-153",
+      "sourceIds": [
+        153
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Sous quel président a été abolie la peine de mort en France ?",
+      "answers": [
+        "François Mitterrand"
+      ],
+      "wrong": [
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Valéry Giscard d'Estaing"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-154",
+      "sourceIds": [
+        154
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Que célèbre-t-on le 8 mai ?",
+      "answers": [
+        "La fin de la Seconde Guerre mondiale en Europe en 1945",
+        "La victoire des Alliés en Europe en 1945",
+        "La capitulation de l'Allemagne nazie le 8 mai 1945"
+      ],
+      "wrong": [
+        "Le débarquement des Alliés en Normandie, le 6 juin 1944",
+        "La libération de Paris, le 25 août 1944",
+        "L'armistice de la Première Guerre mondiale, en 1918"
+      ],
+      "corrections": [
+        {
+          "reason": "Le 8 mai marque la victoire en Europe. La Seconde Guerre mondiale se poursuit en Asie jusqu'à la capitulation japonaise du 2 septembre 1945.",
+          "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/journees-nationales-commemoratives/8-mai-commemoration-victoire-du-8-mai-1945"
+        }
+      ]
+    },
+    {
+      "id": "q-155",
+      "sourceIds": [
+        155
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+      "answers": [
+        "La création de la Communauté européenne du charbon et de l'acier (CECA)",
+        "La CECA (mise en commun de la production de charbon et d'acier)"
+      ],
+      "wrong": [
+        "La création de la Communauté économique européenne (CEE)",
+        "La signature du traité de Rome",
+        "La première élection du Parlement européen au suffrage universel"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-156",
+      "sourceIds": [
+        156
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        "Jean Moulin",
+        "Le Général de Gaulle"
+      ],
+      "wrong": [
+        "Philippe Pétain",
+        "Pierre Laval",
+        "Georges Clemenceau"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-157",
+      "sourceIds": [
+        157
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+      "answers": [
+        "L'armistice de la Première Guerre mondiale (1918)",
+        "La fin des combats de la Grande Guerre"
+      ],
+      "wrong": [
+        "La fin de la Seconde Guerre mondiale en Europe (1945)",
+        "L'appel du 18 juin (1940)",
+        "La victoire de Napoléon à Austerlitz (1805)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-158",
+      "sourceIds": [
+        158
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Depuis quand l'esclavage a-t-il été aboli en France ?",
+      "answers": [
+        "1848"
+      ],
+      "wrong": [
+        "1789",
+        "1905",
+        "1946"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-159",
+      "sourceIds": [
+        159
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui a aboli l'esclavage en France ?",
+      "answers": [
+        "Le gouvernement provisoire de la IIe République en 1848, sous l'impulsion de Victor Schœlcher"
+      ],
+      "wrong": [
+        "Napoléon Ier en 1804, lors de la promulgation du Code civil des Français",
+        "Jules Ferry en 1881, sous la IIIe République, avec les lois scolaires",
+        "Louis XVI en 1789, lors de l'abolition des privilèges du 4 août"
+      ],
+      "corrections": [
+        {
+          "reason": "Victor Schœlcher joue un rôle décisif et prépare le décret du 27 avril 1848 ; l'abolition est décidée par le gouvernement provisoire de la IIe République.",
+          "source": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/d36/dossiers-dhistoire-victor-schoelcher-1.html"
+        }
+      ]
+    },
+    {
+      "id": "q-160",
+      "sourceIds": [
+        160
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+      "answers": [
+        "1881"
+      ],
+      "wrong": [
+        "1848",
+        "1905",
+        "1945"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-161",
+      "sourceIds": [
+        161
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+      "answers": [
+        "Elles ont obtenu le droit de vote et le droit d'être élues (éligibilité)",
+        "Le droit de voter aux élections"
+      ],
+      "wrong": [
+        "Elles ont obtenu le droit de travailler sans l'autorisation de leur mari",
+        "Elles ont obtenu le droit à la contraception (pilule)",
+        "Elles ont obtenu le droit d'ouvrir un compte bancaire seules"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-162",
+      "sourceIds": [
+        162
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle organisation a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "answers": [
+        "L'Organisation des Nations Unies (ONU)"
+      ],
+      "wrong": [
+        "L'Organisation du traité de l'Atlantique nord (OTAN)",
+        "La Société des Nations (SDN)",
+        "La Communauté économique européenne (CEE)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-163",
+      "sourceIds": [
+        163
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
+      "answers": [
+        "1999 ; les pièces et les billets en euros circulent depuis 2002"
+      ],
+      "wrong": [
+        "1992, lors de la signature du traité de Maastricht",
+        "1957, lors de la signature des traités de Rome",
+        "2004, lors de l'élargissement de l'Union à dix nouveaux pays"
+      ],
+      "corrections": [
+        {
+          "reason": "La France adopte l'euro le 1er janvier 1999. Le 1er janvier 2002 correspond à la mise en circulation des pièces et des billets, et non à la création de la monnaie officielle.",
+          "source": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/france-and-euro_en"
+        }
+      ]
+    },
+    {
+      "id": "q-164",
+      "sourceIds": [
+        164
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Lors de la seconde guerre mondiale, à quelle date la ville de Paris a-t-elle été libérée ?",
+      "answers": [
+        "Le 25 août 1944"
+      ],
+      "wrong": [
+        "Le 18 juin 1940",
+        "Le 6 juin 1944",
+        "Le 8 mai 1945"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-165",
+      "sourceIds": [
+        165
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+      "answers": [
+        "Nantes"
+      ],
+      "wrong": [
+        "Bordeaux",
+        "Marseille",
+        "Brest"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-166",
+      "sourceIds": [
+        166
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel célèbre philosophe des Lumières a dénoncé l'esclavage ?",
+      "answers": [
+        "Montesquieu",
+        "Condorcet",
+        "Voltaire"
+      ],
+      "wrong": [
+        "René Descartes",
+        "Blaise Pascal",
+        "Jean-Paul Sartre"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-167",
+      "sourceIds": [
+        167
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle oeuvre a été écrite par Victor Hugo ?",
+      "answers": [
+        "Les Misérables",
+        "Notre-Dame de Paris",
+        "Les Contemplations"
+      ],
+      "wrong": [
+        "Germinal",
+        "Madame Bovary",
+        "Les Trois Mousquetaires"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-168",
+      "sourceIds": [
+        168
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel peintre est français ?",
+      "answers": [
+        "Claude Monet",
+        "Auguste Renoir",
+        "Paul Cézanne",
+        "Eugène Delacroix",
+        "Henri Matisse"
+      ],
+      "wrong": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Rembrandt"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-169",
+      "sourceIds": [
+        169
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel plat est une spécialité de la cuisine française ?",
+      "answers": [
+        "Le coq au vin",
+        "Le bœuf bourguignon",
+        "La blanquette de veau",
+        "Le pot-au-feu"
+      ],
+      "wrong": [
+        "La moussaka",
+        "Le risotto",
+        "Le goulasch"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-170",
+      "sourceIds": [
+        170
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Marie Curie ?",
+      "answers": [
+        "Une pionnière dans le domaine de la radioactivité et double prix Nobel",
+        "Une physicienne et chimiste, double prix Nobel",
+        "Une scientifique pionnière de la radioactivité"
+      ],
+      "wrong": [
+        "Une ministre à l'origine de la loi sur l'IVG",
+        "Une philosophe, auteure du Deuxième Sexe",
+        "Une aviatrice, première femme à traverser l'Atlantique en solitaire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-171",
+      "sourceIds": [
+        171
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui a peint 'La liberté guidant le peuple' ?",
+      "answers": [
+        "Eugène Delacroix"
+      ],
+      "wrong": [
+        "Jacques-Louis David",
+        "Théodore Géricault",
+        "Claude Monet"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-172",
+      "sourceIds": [
+        172
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Dans quel grand musée parisien est exposée la Joconde ?",
+      "answers": [
+        "Le Louvre"
+      ],
+      "wrong": [
+        "Le musée d'Orsay",
+        "Le musée Rodin",
+        "Le musée du quai Branly – Jacques Chirac"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-173",
+      "sourceIds": [
+        173
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel château célèbre se trouve près de Paris et symbolise le pouvoir royal de Louis XIV ?",
+      "answers": [
+        "Le château de Versailles"
+      ],
+      "wrong": [
+        "Le château de Fontainebleau",
+        "Le château de Chambord",
+        "Le château de Chenonceau"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-174",
+      "sourceIds": [
+        174
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Où peut-on voir des peintures préhistoriques en France ?",
+      "answers": [
+        "Dans la grotte de Lascaux"
+      ],
+      "wrong": [
+        "Dans le gouffre de Padirac",
+        "Dans les catacombes de Paris",
+        "Dans la crypte de la basilique de Saint-Denis"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-175",
+      "sourceIds": [
+        175
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel peintre célèbre a peint les Nymphéas ?",
+      "answers": [
+        "Claude Monet"
+      ],
+      "wrong": [
+        "Paul Cézanne",
+        "Édouard Manet",
+        "Henri Matisse"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-176",
+      "sourceIds": [
+        176
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Pendant quelles journées peut-on visiter gratuitement des lieux culturels en France ?",
+      "answers": [
+        "Les Journées européennes du patrimoine"
+      ],
+      "wrong": [
+        "La Fête de la musique",
+        "La Semaine du goût",
+        "Le Téléthon"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-177",
+      "sourceIds": [
+        177
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Que symbolise le 1er mai ?",
+      "answers": [
+        "La Fête du Travail"
+      ],
+      "wrong": [
+        "La fin de la Seconde Guerre mondiale",
+        "La Journée de l'Europe",
+        "La Fête de la musique"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-178",
+      "sourceIds": [
+        178
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Monsieur Rouget de Lisle ?",
+      "answers": [
+        "Le compositeur de La Marseillaise"
+      ],
+      "wrong": [
+        "Le sculpteur de la statue de la Liberté",
+        "Le peintre de La Liberté guidant le peuple",
+        "L'architecte du château de Versailles"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-179",
+      "sourceIds": [
+        179
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "À quelle occasion a été construite la Tour Eiffel ?",
+      "answers": [
+        "Pour l'Exposition Universelle de 1889"
+      ],
+      "wrong": [
+        "Pour l'Exposition universelle de 1900",
+        "Pour les Jeux olympiques de Paris de 1924",
+        "Pour servir d'antenne de radio militaire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-180",
+      "sourceIds": [
+        180
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle chaîne de montagne est située entre la France et l'Espagne ?",
+      "answers": [
+        "Les Pyrénées"
+      ],
+      "wrong": [
+        "Les Vosges",
+        "Les Alpes",
+        "Le Jura"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-181",
+      "sourceIds": [
+        181
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+      "answers": [
+        "Les Alpes"
+      ],
+      "wrong": [
+        "Les Pyrénées",
+        "Le Jura",
+        "Les Vosges"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-182",
+      "sourceIds": [
+        182
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Molière ?",
+      "answers": [
+        "Un écrivain et dramaturge français du XVIIe siècle",
+        "Un célèbre dramaturge (auteur de théâtre) et comédien du XVIIe siècle"
+      ],
+      "wrong": [
+        "Un poète et romancier français du XIXe siècle",
+        "Un philosophe des Lumières du XVIIIe siècle",
+        "Un compositeur (auteur de ballets) et musicien de la cour de Louis XIV"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-183",
+      "sourceIds": [
+        183
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Charles Baudelaire ?",
+      "answers": [
+        "Un poète français majeur du XIXe siècle"
+      ],
+      "wrong": [
+        "Un peintre impressionniste français du XIXe siècle",
+        "Un auteur de théâtre français du XVIIe siècle",
+        "Un philosophe des Lumières du XVIIIe siècle"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-184",
+      "sourceIds": [
+        184
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était George Sand ?",
+      "answers": [
+        "Une écrivaine et romancière française du XIXe siècle"
+      ],
+      "wrong": [
+        "Un écrivain et homme politique français du XIXe siècle",
+        "Une chanteuse populaire du XXe siècle",
+        "Une résistante de la Seconde Guerre mondiale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-185",
+      "sourceIds": [
+        185
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Simone de Beauvoir ?",
+      "answers": [
+        "Une philosophe, romancière et féministe française"
+      ],
+      "wrong": [
+        "Une ministre de la Santé à l'origine de la loi sur l'IVG",
+        "Une physicienne lauréate du prix Nobel",
+        "Une chanteuse populaire, interprète de La Vie en rose"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-186",
+      "sourceIds": [
+        186
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Albert Camus ?",
+      "answers": [
+        "Un écrivain et philosophe français, prix Nobel de littérature",
+        "L'auteur de L'Étranger et de La Peste"
+      ],
+      "wrong": [
+        "Un peintre impressionniste français",
+        "Un homme politique, président de la IVe République",
+        "Un cinéaste de la Nouvelle Vague"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-187",
+      "sourceIds": [
+        187
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Marguerite Yourcenar ?",
+      "answers": [
+        "Une écrivaine et académicienne française",
+        "La première femme élue à l'Académie française"
+      ],
+      "wrong": [
+        "La première femme ministre en France",
+        "Une chanteuse de l'après-guerre",
+        "Une chimiste ayant découvert le radium"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-188",
+      "sourceIds": [
+        188
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Paul Cézanne ?",
+      "answers": [
+        "Un peintre post-impressionniste français"
+      ],
+      "wrong": [
+        "Un sculpteur français, auteur du Penseur",
+        "Un écrivain naturaliste, auteur de Germinal",
+        "Un compositeur français de la Belle Époque"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-189",
+      "sourceIds": [
+        189
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Auguste Rodin ?",
+      "answers": [
+        "Un sculpteur français"
+      ],
+      "wrong": [
+        "Un peintre impressionniste français",
+        "Un ingénieur, concepteur de la tour Eiffel",
+        "Un écrivain et poète du XIXe siècle"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-190",
+      "sourceIds": [
+        190
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était un célèbre compositeur français ?",
+      "answers": [
+        "Claude Debussy",
+        "Maurice Ravel",
+        "Hector Berlioz"
+      ],
+      "wrong": [
+        "Wolfgang Amadeus Mozart",
+        "Giuseppe Verdi",
+        "Piotr Ilitch Tchaïkovski"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-191",
+      "sourceIds": [
+        191
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qui était Auguste Renoir ?",
+      "answers": [
+        "Un peintre impressionniste français"
+      ],
+      "wrong": [
+        "Un sculpteur français, auteur du Penseur",
+        "Un compositeur français de musique classique",
+        "Un écrivain et poète romantique"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-192",
+      "sourceIds": [
+        192
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel musée est situé à Paris ?",
+      "answers": [
+        "Le musée du Louvre",
+        "Le musée d'Orsay",
+        "Le Centre Pompidou",
+        "Le musée du Quai Branly",
+        "Le musée de l'Orangerie"
+      ],
+      "wrong": [
+        "Le Louvre-Lens",
+        "Le musée du Prado",
+        "Le Mucem"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-193",
+      "sourceIds": [
+        193
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel monument historique se trouve sur une île en Normandie ?",
+      "answers": [
+        "Le Mont-Saint-Michel"
+      ],
+      "wrong": [
+        "Le fort Boyard",
+        "Le château d'If",
+        "La cité de Carcassonne"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-194",
+      "sourceIds": [
+        194
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+      "answers": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Toulouse",
+        "Nice",
+        "Nantes",
+        "Montpellier",
+        "Strasbourg",
+        "Bordeaux",
+        "Lille"
+      ],
+      "wrong": [
+        "Limoges",
+        "Dijon",
+        "Brest"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-195",
+      "sourceIds": [
+        195
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle île fait partie des Antilles françaises ?",
+      "answers": [
+        "La Martinique",
+        "La Guadeloupe"
+      ],
+      "wrong": [
+        "La Réunion",
+        "Mayotte",
+        "La Nouvelle-Calédonie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-196",
+      "sourceIds": [
+        196
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle île est française ?",
+      "answers": [
+        "La Corse",
+        "La Martinique",
+        "La Guadeloupe",
+        "La Réunion",
+        "Mayotte",
+        "Tahiti",
+        "La Nouvelle-Calédonie",
+        "Saint-Pierre-et-Miquelon"
+      ],
+      "wrong": [
+        "Jersey",
+        "La Sardaigne",
+        "L'île Maurice"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-197",
+      "sourceIds": [
+        197
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle est la plus haute montagne de France ?",
+      "answers": [
+        "Le Mont Blanc"
+      ],
+      "wrong": [
+        "Le mont Ventoux",
+        "Le Vignemale",
+        "Le puy de Dôme"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-198",
+      "sourceIds": [
+        198
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle île française est située dans l'océan indien ?",
+      "answers": [
+        "La Réunion",
+        "Mayotte"
+      ],
+      "wrong": [
+        "Madagascar",
+        "La Martinique",
+        "La Nouvelle-Calédonie"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-199",
+      "sourceIds": [
+        199
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel département français a une frontière avec le Brésil ?",
+      "answers": [
+        "La Guyane"
+      ],
+      "wrong": [
+        "La Martinique",
+        "La Guadeloupe",
+        "Mayotte"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-200",
+      "sourceIds": [
+        200
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "De quelle ville française décolle la fusée Ariane ?",
+      "answers": [
+        "Kourou"
+      ],
+      "wrong": [
+        "Toulouse",
+        "Cayenne",
+        "Bordeaux"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-201",
+      "sourceIds": [
+        201
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle mer ou océan borde la France métropolitaine ?",
+      "answers": [
+        "La mer Méditerranée",
+        "L'océan Atlantique",
+        "La Manche",
+        "La mer du Nord"
+      ],
+      "wrong": [
+        "La mer Baltique",
+        "La mer Adriatique",
+        "La mer Noire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-202",
+      "sourceIds": [
+        202
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+      "answers": [
+        "La Manche"
+      ],
+      "wrong": [
+        "La mer d'Irlande",
+        "La mer Baltique",
+        "La mer Méditerranée"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-203",
+      "sourceIds": [
+        203
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle île est un département d'outre-mer français ?",
+      "answers": [
+        "La Guadeloupe",
+        "La Martinique",
+        "La Réunion",
+        "Mayotte"
+      ],
+      "wrong": [
+        "La Corse",
+        "La Nouvelle-Calédonie",
+        "Tahiti"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-204",
+      "sourceIds": [
+        204
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Qu'est-ce que la France d'outre-mer ?",
+      "answers": [
+        "Les territoires français situés hors du continent européen",
+        "L'ensemble des terres françaises situées en Amérique, Océanie, Océan Indien et Antarctique"
+      ],
+      "wrong": [
+        "Les anciennes colonies françaises d'Afrique et d'Asie, aujourd'hui indépendantes",
+        "Les pays étrangers où vivent de nombreux Français expatriés",
+        "La Corse et les autres îles françaises situées en Europe"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-205",
+      "sourceIds": [
+        205
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle est la population approximative de la France en 2025 ?",
+      "answers": [
+        "Environ 70 millions d'habitants"
+      ],
+      "wrong": [
+        "Environ 55 millions d'habitants",
+        "Environ 85 millions d'habitants",
+        "Environ 100 millions d'habitants"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-206",
+      "sourceIds": [
+        206
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est le principal port maritime de France ?",
+      "answers": [
+        "Le port de Marseille"
+      ],
+      "wrong": [
+        "Le port de Dunkerque",
+        "Le port de Bordeaux",
+        "Le port de La Rochelle"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-207",
+      "sourceIds": [
+        207
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Combien y a-t-il de régions en France métropolitaine ?",
+      "answers": [
+        "13"
+      ],
+      "wrong": [
+        "10",
+        "18",
+        "22"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-208",
+      "sourceIds": [
+        208
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle île française se trouve au sud-est du continent africain ?",
+      "answers": [
+        "La Réunion",
+        "Mayotte"
+      ],
+      "wrong": [
+        "Madagascar",
+        "Tahiti",
+        "La Guadeloupe"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-209",
+      "sourceIds": [
+        209
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+      "answers": [
+        "Lyon"
+      ],
+      "wrong": [
+        "Grenoble",
+        "Clermont-Ferrand",
+        "Saint-Étienne"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-210",
+      "sourceIds": [
+        210
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est le chef-lieu de la région Bretagne ?",
+      "answers": [
+        "Rennes"
+      ],
+      "wrong": [
+        "Nantes",
+        "Brest",
+        "Quimper"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-211",
+      "sourceIds": [
+        211
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+      "answers": [
+        "Marseille"
+      ],
+      "wrong": [
+        "Nice",
+        "Toulon",
+        "Avignon"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-212",
+      "sourceIds": [
+        212
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel est le 101ème département français depuis 2011 ?",
+      "answers": [
+        "Mayotte"
+      ],
+      "wrong": [
+        "La Réunion",
+        "La Martinique",
+        "La Guyane"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-213",
+      "sourceIds": [
+        213
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quelle région française est réputée pour ses stations de ski ?",
+      "answers": [
+        "Auvergne-Rhône-Alpes"
+      ],
+      "wrong": [
+        "Bretagne",
+        "Normandie",
+        "Centre-Val de Loire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-214",
+      "sourceIds": [
+        214
+      ],
+      "theme": "Histoire, géographie et culture",
+      "question": "Quel fleuve traverse Paris ?",
+      "answers": [
+        "La Seine"
+      ],
+      "wrong": [
+        "La Loire",
+        "La Marne",
+        "Le Rhône"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-215",
+      "sourceIds": [
+        215
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Où faut-il déclarer la naissance d'un enfant ?",
+      "answers": [
+        "À la mairie du lieu de naissance"
+      ],
+      "wrong": [
+        "À la préfecture du département",
+        "À la caisse d'allocations familiales (CAF)",
+        "Au consulat du pays d'origine des parents"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-216",
+      "sourceIds": [
+        216
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+      "answers": [
+        "Rafraîchir la peinture des murs sans transformer le logement",
+        "Poser des étagères",
+        "Faire de petits travaux de décoration ou d'aménagement sans transformer le logement",
+        "Changer la tapisserie"
+      ],
+      "wrong": [
+        "Remplacer la cuisine équipée par une autre",
+        "Transformer une chambre en salle de bains",
+        "Installer une cloison pour créer une pièce supplémentaire"
+      ],
+      "corrections": [
+        {
+          "reason": "Les petits aménagements sont autorisés. Il n'existe pas de règle générale imposant uniquement des couleurs neutres ; les transformations importantes nécessitent l'accord écrit du propriétaire.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1874"
+        }
+      ]
+    },
+    {
+      "id": "q-217",
+      "sourceIds": [
+        217
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quel mariage est reconnu légalement ?",
+      "answers": [
+        "Le mariage civil (célébré à la mairie)"
+      ],
+      "wrong": [
+        "Le mariage religieux, célébré dans un lieu de culte",
+        "Le pacte civil de solidarité (PACS)",
+        "L'union libre, après cinq ans de vie commune"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-218",
+      "sourceIds": [
+        218
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Le stationnement sur une place réservée aux personnes handicapées :",
+      "answers": [
+        "Est réservé aux véhicules transportant une personne titulaire de la carte de stationnement pour personnes handicapées"
+      ],
+      "wrong": [
+        "Est autorisé à tous les conducteurs, à condition de rester moins de cinq minutes sur la place",
+        "Est réservé aux véhicules des personnes âgées de plus de 75 ans, avec ou sans carte",
+        "Est possible sans carte si le conducteur allume ses feux de détresse et reste à proximité"
+      ],
+      "corrections": [
+        {
+          "reason": "La CMI doit porter la mention stationnement. Le conducteur peut être l'accompagnant du bénéficiaire ; une CMI priorité ou invalidité seule ne suffit pas.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34049"
+        }
+      ]
+    },
+    {
+      "id": "q-219",
+      "sourceIds": [
+        219
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Si une machine à laver est cassée, il est possible de :",
+      "answers": [
+        "Demander au vendeur une réparation ou un remplacement si les conditions de la garantie sont réunies",
+        "Faire jouer la garantie légale de conformité pour un défaut couvert apparu dans les deux ans suivant la délivrance du bien"
+      ],
+      "wrong": [
+        "Exiger du fabricant un appareil neuf, quelle que soit la date d'achat",
+        "Faire jouer la garantie légale de conformité pendant dix ans après l'achat, quel que soit le défaut",
+        "La déposer sur le trottoir, où la commune viendra la ramasser"
+      ],
+      "corrections": [
+        {
+          "reason": "Une panne ne déclenche pas automatiquement une garantie : la garantie légale de conformité couvre les défauts concernés dans le délai prévu, pas toute casse quelle qu'en soit la cause.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11094"
+        }
+      ]
+    },
+    {
+      "id": "q-220",
+      "sourceIds": [
+        220
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+      "answers": [
+        "Toujours, dans les 5 jours suivant la naissance"
+      ],
+      "wrong": [
+        "Seulement lorsque ses parents sont mariés",
+        "Seulement si l'enfant est né à l'hôpital",
+        "Seulement lorsqu'il s'agit du premier enfant de la famille"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-221",
+      "sourceIds": [
+        221
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quand faut-il déclarer son enfant au service d'état civil ?",
+      "answers": [
+        "Dans les 5 jours suivant la naissance"
+      ],
+      "wrong": [
+        "Dans les 48 heures suivant la naissance",
+        "Dans le mois suivant la naissance",
+        "Dans les 3 mois suivant la naissance"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-222",
+      "sourceIds": [
+        222
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quel numéro d'urgence permet d'appeler la police ?",
+      "answers": [
+        "Le 17 (Police Secours)",
+        "Le 112 (Numéro d'urgence européen)"
+      ],
+      "wrong": [
+        "Le 18 (Sapeurs-pompiers)",
+        "Le 15 (SAMU)",
+        "Le 115 (Samu social)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-223",
+      "sourceIds": [
+        223
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+      "answers": [
+        "15"
+      ],
+      "wrong": [
+        "17",
+        "18",
+        "115"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-224",
+      "sourceIds": [
+        224
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Auprès de quelle institution les parents peuvent inscrire leurs enfants à l'école publique ?",
+      "answers": [
+        "La mairie"
+      ],
+      "wrong": [
+        "Le rectorat d'académie",
+        "La préfecture",
+        "La caisse d'allocations familiales"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-225",
+      "sourceIds": [
+        225
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "answers": [
+        "Les deux parents, sauf décision contraire du juge"
+      ],
+      "wrong": [
+        "Le parent chez qui l'enfant vit habituellement",
+        "La mère, sauf décision contraire du juge",
+        "Le parent qui a demandé le divorce"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-226",
+      "sourceIds": [
+        226
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+      "answers": [
+        "L'aide juridictionnelle"
+      ],
+      "wrong": [
+        "L'allocation personnalisée au logement",
+        "La prime d'activité",
+        "L'allocation de rentrée scolaire"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-227",
+      "sourceIds": [
+        227
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qui peut demander le divorce de personnes mariées ?",
+      "answers": [
+        "Un ou les deux époux"
+      ],
+      "wrong": [
+        "Uniquement les deux époux ensemble, d'un commun accord",
+        "Le maire qui a célébré le mariage",
+        "Le mari seulement"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-228",
+      "sourceIds": [
+        228
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+      "answers": [
+        "La CPAM",
+        "La Sécurité sociale",
+        "L'Assurance Maladie"
+      ],
+      "wrong": [
+        "La CAF (caisse d'allocations familiales)",
+        "La mairie",
+        "France Travail"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-229",
+      "sourceIds": [
+        229
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "La contraception :",
+      "answers": [
+        "Est un choix personnel",
+        "Est un droit",
+        "Peut être remboursée par l'Assurance Maladie, selon la méthode"
+      ],
+      "wrong": [
+        "Nécessite l'autorisation des parents pour les mineures",
+        "Exige l'autorisation du conjoint",
+        "N'est remboursée qu'aux femmes mariées"
+      ],
+      "corrections": [
+        {
+          "reason": "Tous les moyens de contraception ne sont pas remboursés. Le niveau de prise en charge dépend notamment du dispositif et de l'âge.",
+          "source": "https://www.ameli.fr/assure/remboursements/rembourse/contraception-ivg/contraception"
+        }
+      ]
+    },
+    {
+      "id": "q-230",
+      "sourceIds": [
+        230
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+      "answers": [
+        "Le médecin protège les informations sur son patient et ne peut les révéler que dans les cas autorisés par la loi",
+        "Le respect du secret médical"
+      ],
+      "wrong": [
+        "Le droit pour l'employeur de connaître le diagnostic d'un arrêt maladie de son salarié",
+        "L'obligation pour le médecin d'informer la famille du patient de toute maladie grave",
+        "Le partage des informations médicales du patient avec la mairie de sa commune"
+      ],
+      "corrections": [
+        {
+          "reason": "Le secret médical protège les informations du patient. Il existe des partages encadrés pour les soins et des dérogations légales ; une interdiction absolue de toute révélation serait inexacte.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34302"
+        }
+      ]
+    },
+    {
+      "id": "q-231",
+      "sourceIds": [
+        231
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "À quoi sert la carte Vitale ?",
+      "answers": [
+        "À simplifier le remboursement des frais de santé",
+        "À transmettre électroniquement les feuilles de soins à la Sécurité sociale"
+      ],
+      "wrong": [
+        "À prouver son identité lors d'un contrôle de police",
+        "À payer directement le médecin, comme une carte bancaire",
+        "À obtenir gratuitement des médicaments sans ordonnance"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-232",
+      "sourceIds": [
+        232
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "À quoi sert une mutuelle santé ?",
+      "answers": [
+        "À compléter les remboursements de la Sécurité sociale, selon le contrat",
+        "À prendre en charge tout ou partie du reste à payer, selon le contrat"
+      ],
+      "wrong": [
+        "À remplacer entièrement la Sécurité sociale pour tous les soins",
+        "À verser les allocations familiales aux parents",
+        "À payer les indemnités de chômage après un licenciement"
+      ],
+      "corrections": [
+        {
+          "reason": "Une mutuelle ne rembourse pas systématiquement tous les frais restants : sa prise en charge dépend du contrat et des exclusions applicables.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314"
+        }
+      ]
+    },
+    {
+      "id": "q-233",
+      "sourceIds": [
+        233
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qu'est-ce que le tiers payant ?",
+      "answers": [
+        "La dispense d'avancer tout ou partie des frais de santé pris en charge",
+        "Le paiement direct du professionnel de santé par l'Assurance Maladie ou la mutuelle"
+      ],
+      "wrong": [
+        "Un remboursement limité à un tiers des dépenses de santé",
+        "Le paiement des soins par un membre de la famille du patient",
+        "La part des frais qui reste toujours à la charge du patient"
+      ],
+      "corrections": [
+        {
+          "reason": "Le tiers payant peut être partiel ou total. Il ne dispense pas nécessairement d'avancer la totalité des frais.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F167"
+        }
+      ]
+    },
+    {
+      "id": "q-234",
+      "sourceIds": [
+        234
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "L'inscription à l'Assurance maladie est :",
+      "answers": [
+        "Obligatoire pour les personnes qui travaillent ou résident en France de manière stable et régulière"
+      ],
+      "wrong": [
+        "Facultative : chacun peut choisir une assurance privée à la place de la Sécurité sociale",
+        "Réservée aux personnes de nationalité française qui résident en France",
+        "Réservée aux personnes qui ont un emploi salarié en France"
+      ],
+      "corrections": [
+        {
+          "reason": "La résidence régulière seule ne décrit pas toutes les conditions : la protection universelle maladie repose sur une activité en France ou une résidence stable et régulière, sous réserve des règles de coordination applicables.",
+          "source": "https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie"
+        }
+      ]
+    },
+    {
+      "id": "q-235",
+      "sourceIds": [
+        235
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "L'avortement est-il possible en France ?",
+      "answers": [
+        "Oui, c'est une liberté garantie par la Constitution",
+        "Oui, c'est légal jusqu'à 14 semaines de grossesse"
+      ],
+      "wrong": [
+        "Oui, mais seulement jusqu'à 10 semaines de grossesse",
+        "Oui, mais seulement avec l'autorisation du conjoint",
+        "Non, sauf en cas de danger pour la vie de la mère"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-236",
+      "sourceIds": [
+        236
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Travailler sans être déclaré est :",
+      "answers": [
+        "Une infraction pénale appelée travail dissimulé",
+        "Un délit puni par la loi"
+      ],
+      "wrong": [
+        "Autorisé si le salarié est d'accord",
+        "Toléré pour les emplois de moins d'un mois",
+        "Une simple faute administrative, sans sanction pénale"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-237",
+      "sourceIds": [
+        237
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qu'est-ce que le SMIC ?",
+      "answers": [
+        "Le Salaire Minimum Interprofessionnel de Croissance"
+      ],
+      "wrong": [
+        "Le Salaire Moyen Interprofessionnel de Croissance",
+        "Le Salaire Minimum Individuel Conventionnel",
+        "Le Système Mutualiste d'Indemnisation du Chômage"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-238",
+      "sourceIds": [
+        238
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+      "answers": [
+        "S'inscrire à France Travail"
+      ],
+      "wrong": [
+        "S'inscrire à la mairie de son domicile",
+        "S'inscrire à la CAF",
+        "S'inscrire à l'Urssaf"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-239",
+      "sourceIds": [
+        239
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle est la durée légale du temps de travail par semaine ?",
+      "answers": [
+        "35 heures"
+      ],
+      "wrong": [
+        "30 heures",
+        "39 heures",
+        "42 heures"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-240",
+      "sourceIds": [
+        240
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qui peut demander un congé parental d'éducation ?",
+      "answers": [
+        "Le père ou la mère",
+        "Le père et la mère alternativement"
+      ],
+      "wrong": [
+        "Uniquement le père",
+        "Uniquement la mère",
+        "Uniquement le parent qui a le salaire le plus faible"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-241",
+      "sourceIds": [
+        241
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Une personne étrangère, en situation régulière, peut créer son entreprise :",
+      "answers": [
+        "Oui, sous réserve d'avoir un titre de séjour qui l'autorise",
+        "Oui, à condition d'être en situation régulière avec un statut adapté"
+      ],
+      "wrong": [
+        "Non, toute création d'entreprise est réservée aux Français",
+        "Oui, automatiquement, quel que soit son titre de séjour",
+        "Non, seulement après dix ans de résidence en France"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-242",
+      "sourceIds": [
+        242
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Une femme peut-elle créer son entreprise ?",
+      "answers": [
+        "Oui, aux mêmes conditions légales qu'un homme, sans autorisation de son conjoint"
+      ],
+      "wrong": [
+        "Oui, mais seulement avec l'autorisation de son mari si elle est mariée",
+        "Oui, mais seulement si elle n'a pas d'enfant de moins de trois ans",
+        "Oui, mais elle doit d'abord obtenir une autorisation de la mairie"
+      ],
+      "corrections": [
+        {
+          "reason": "Aucune restriction ne peut être fondée sur le fait d'être une femme ; les formalités et conditions ordinaires de création d'entreprise restent applicables.",
+          "source": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006136137/"
+        }
+      ]
+    },
+    {
+      "id": "q-243",
+      "sourceIds": [
+        243
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quels sont les textes qui définissent les règles au travail ?",
+      "answers": [
+        "Le Code du travail"
+      ],
+      "wrong": [
+        "Le Code de commerce",
+        "Le Code électoral",
+        "Le Code de la route"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-244",
+      "sourceIds": [
+        244
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "answers": [
+        "Les litiges (conflits) entre un employeur et un salarié",
+        "Les désaccords liés au contrat de travail (licenciement, salaires impayés)"
+      ],
+      "wrong": [
+        "Les litiges (conflits) entre un propriétaire et son locataire",
+        "Les litiges entre un commerçant et son fournisseur (factures impayées)",
+        "Les litiges entre un citoyen et l'administration"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-245",
+      "sourceIds": [
+        245
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Qui a le droit de se syndiquer ?",
+      "answers": [
+        "Tous les salariés et les agents publics, sauf les militaires"
+      ],
+      "wrong": [
+        "Uniquement les salariés en CDI",
+        "Les salariés de nationalité française ou européenne",
+        "Les salariés des entreprises de plus de 50 personnes"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-246",
+      "sourceIds": [
+        246
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Est-il possible de licencier une femme enceinte ou en congé maternité, en raison de sa grossesse ?",
+      "answers": [
+        "Non, cela est interdit par la loi"
+      ],
+      "wrong": [
+        "Oui, si elle est encore en période d'essai",
+        "Oui, si l'entreprise compte moins de dix salariés",
+        "Oui, si elle est en contrat à durée déterminée (CDD)"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-247",
+      "sourceIds": [
+        247
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "L'instruction des enfants est obligatoire de :",
+      "answers": [
+        "3 ans à 16 ans"
+      ],
+      "wrong": [
+        "6 ans à 16 ans",
+        "3 ans à 12 ans",
+        "6 ans à 18 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-248",
+      "sourceIds": [
+        248
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+      "answers": [
+        "6 mois de prison et 7 500 euros d'amende"
+      ],
+      "wrong": [
+        "Une amende forfaitaire de 135 euros",
+        "Dix ans de prison et 150 000 euros d'amende",
+        "Un simple avertissement du directeur de l'école"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-249",
+      "sourceIds": [
+        249
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle est la définition de l'autorité parentale ?",
+      "answers": [
+        "L'ensemble des droits et devoirs des parents envers leurs enfants"
+      ],
+      "wrong": [
+        "Le pouvoir du père de décider seul pour ses enfants",
+        "L'ensemble des droits des parents sur leurs enfants jusqu'à leurs 21 ans",
+        "Le droit des parents de choisir le métier et le conjoint de leurs enfants"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-250",
+      "sourceIds": [
+        250
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quel motif d'absence est accepté par l'école ?",
+      "answers": [
+        "La maladie de l'enfant",
+        "Une maladie contagieuse d'un membre de la famille",
+        "Une réunion solennelle de famille (mariage, enterrement)",
+        "Un empêchement lié aux transports (grève, intempéries)"
+      ],
+      "wrong": [
+        "Un départ anticipé en vacances (billets moins chers)",
+        "Un anniversaire dans la famille (fête, repas)",
+        "La fatigue après un week-end chargé"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-251",
+      "sourceIds": [
+        251
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+      "answers": [
+        "16 ans"
+      ],
+      "wrong": [
+        "12 ans",
+        "14 ans",
+        "15 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-252",
+      "sourceIds": [
+        252
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "answers": [
+        "À 3 ans"
+      ],
+      "wrong": [
+        "À 2 ans",
+        "À 6 ans",
+        "À 7 ans"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-253",
+      "sourceIds": [
+        253
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+      "answers": [
+        "Le collège"
+      ],
+      "wrong": [
+        "L'école maternelle",
+        "Le lycée",
+        "L'université"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-254",
+      "sourceIds": [
+        254
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "En tant que parent d'élève, il est possible de :",
+      "answers": [
+        "Voter aux élections des représentants de parents d'élèves",
+        "Siéger au conseil d'école comme représentant élu des parents",
+        "Rejoindre une association de parents d'élèves, comme la FCPE ou la PEEP",
+        "Rencontrer les professeurs lors des réunions régulières"
+      ],
+      "wrong": [
+        "Assister aux cours de son enfant quand il le souhaite",
+        "Choisir les professeurs de son enfant",
+        "Dispenser son enfant des cours contraires à ses convictions"
+      ],
+      "corrections": [
+        {
+          "reason": "Les parents participent aux conseils par leurs représentants. Être parent ne donne pas automatiquement un siège au conseil d'école ou au conseil d'administration.",
+          "source": "https://www.education.gouv.fr/les-representants-des-parents-d-eleves-8177"
+        }
+      ]
+    },
+    {
+      "id": "q-255",
+      "sourceIds": [
+        255
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Quelle instruction est prévue pour les enfants qui ne parlent pas français ?",
+      "answers": [
+        "Un programme spécifique pour apprendre le français"
+      ],
+      "wrong": [
+        "Une scolarisation dans une école séparée, réservée aux enfants étrangers",
+        "Des cours dans leur langue maternelle jusqu'à la fin du collège",
+        "Une attente d'un an avant l'inscription, le temps d'apprendre le français"
+      ],
+      "corrections": []
+    },
+    {
+      "id": "q-256",
+      "sourceIds": [
+        256
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+      "answers": [
+        "L'école doit adapter la scolarisation aux besoins des enfants en situation de handicap dans le cadre de l'école inclusive",
+        "Un enfant peut être scolarisé en classe ordinaire avec des adaptations et, selon ses besoins, l'aide d'un AESH"
+      ],
+      "wrong": [
+        "Les enfants en situation de handicap doivent être scolarisés hors de l'école, dans des établissements spécialisés",
+        "L'inscription dépend de l'accord du directeur d'école et des autres parents",
+        "L'école peut refuser l'enfant si aucun accompagnant n'est disponible"
+      ],
+      "corrections": [
+        {
+          "reason": "La classe ordinaire est une possibilité, mais certains parcours comprennent des dispositifs ou unités adaptés aux besoins de l'élève.",
+          "source": "https://www.education.gouv.fr/la-scolarisation-des-eleves-besoins-educatifs-particuliers-452877"
+        }
+      ]
+    },
+    {
+      "id": "q-257",
+      "sourceIds": [
+        257
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Depuis le 1er juillet 2021, quelle est la durée du congé paternité ?",
+      "answers": [
+        "25 jours, auxquels s'ajoutent 3 jours de congé de naissance"
+      ],
+      "wrong": [
+        "11 jours, auxquels s'ajoutent 3 jours de congé de naissance",
+        "14 jours, auxquels s'ajoutent 3 jours de congé de naissance",
+        "35 jours, auxquels s'ajoutent 3 jours de congé de naissance"
+      ],
+      "corrections": [
+        {
+          "reason": "Le fichier confond le congé de paternité et le congé de naissance. Depuis le 1er juillet 2021, le congé de paternité est de 25 jours calendaires, ou 32 pour une naissance multiple, en plus des 3 jours ouvrables de naissance.",
+          "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12647"
+        }
+      ]
+    },
+    {
+      "id": "q-258",
+      "sourceIds": [
+        258
+      ],
+      "theme": "Vivre dans la société française",
+      "question": "Est-ce possible de punir physiquement ses enfants ?",
+      "answers": [
+        "Non, la loi française interdit la violence physique envers les enfants"
+      ],
+      "wrong": [
+        "Oui, une petite fessée reste autorisée dans le cadre de l'éducation",
+        "Oui, si les deux parents sont d'accord",
+        "Non, sauf à la maison, dans le cadre de la vie privée"
+      ],
+      "corrections": []
+    }
+  ]
+}

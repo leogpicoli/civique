@@ -1,0 +1,462 @@
+{
+  "sourceFile": "data-gouv-qcm-civique-naturalisation.json",
+  "preservedSource": "data/source-original.json",
+  "inputQuestions": 258,
+  "mergedQuestions": 4,
+  "outputQuestions": 254,
+  "groups": [
+    {
+      "retainedId": 3,
+      "sourceIds": [
+        3,
+        116
+      ],
+      "type": "semantic-reviewed",
+      "question": "Déclarer ses revenus aux services fiscaux est :",
+      "originalQuestions": [
+        {
+          "id": 3,
+          "question": "Déclarer ses revenus aux services fiscaux est :"
+        },
+        {
+          "id": 116,
+          "question": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?"
+        }
+      ],
+      "answersBefore": 2,
+      "answersAfter": 2
+    },
+    {
+      "retainedId": 13,
+      "sourceIds": [
+        13,
+        135
+      ],
+      "type": "semantic-reviewed",
+      "question": "Que commémore la fête nationale ?",
+      "originalQuestions": [
+        {
+          "id": 13,
+          "question": "Que commémore la fête nationale ?"
+        },
+        {
+          "id": 135,
+          "question": "Que signifie la date du 14 juillet pour les Français ?"
+        }
+      ],
+      "answersBefore": 6,
+      "answersAfter": 6
+    },
+    {
+      "retainedId": 21,
+      "sourceIds": [
+        21,
+        99
+      ],
+      "type": "semantic-reviewed",
+      "question": "Selon la Constitution, la France est une République...",
+      "originalQuestions": [
+        {
+          "id": 21,
+          "question": "Selon la Constitution, la France est une République..."
+        },
+        {
+          "id": 99,
+          "question": "Que dit l'article 1er de la Constitution française ?"
+        }
+      ],
+      "answersBefore": 2,
+      "answersAfter": 2
+    },
+    {
+      "retainedId": 41,
+      "sourceIds": [
+        41,
+        72
+      ],
+      "type": "semantic-reviewed",
+      "question": "Qui peut se présenter aux élections présidentielles ?",
+      "originalQuestions": [
+        {
+          "id": 41,
+          "question": "Qui peut se présenter aux élections présidentielles ?"
+        },
+        {
+          "id": 72,
+          "question": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?"
+        }
+      ],
+      "answersBefore": 6,
+      "answersAfter": 6
+    }
+  ],
+  "normalization": "Unicode NFKC ; casse, espaces et ponctuation normalisés ; première formulation conservée.",
+  "semanticMergePolicy": "Seuls les quatre groupes de sens relus explicitement sont fusionnés. Les autres questions proches sont conservées, notamment 53 et 58 dont les réponses ne sont pas interchangeables.",
+  "semanticGroups": [
+    [
+      3,
+      116
+    ],
+    [
+      13,
+      135
+    ],
+    [
+      21,
+      99
+    ],
+    [
+      41,
+      72
+    ]
+  ],
+  "runtimeAnswerAdjustments": {
+    "2": {
+      "answers": [
+        "Une preuve de l'autorisation de travail, pour un candidat étranger.",
+        "Des questions sur ses compétences et son expérience professionnelle."
+      ],
+      "reason": "L'autorisation de travail ne concerne que les candidats étrangers."
+    },
+    "3": {
+      "answers": [
+        "Une obligation annuelle pour les contribuables concernés, avec une déclaration automatique possible sous conditions."
+      ],
+      "reason": "Les deux formulations fiscales expriment la même obligation. La formulation complète conserve la précision sourcée de la question 116 et répond grammaticalement à « Déclarer ses revenus aux services fiscaux est : »."
+    },
+    "6": {
+      "answers": [
+        "Libre, mais encadrée par la loi.",
+        "Limitée : les propos haineux sont interdits.",
+        "Exercée dans le respect de la loi du 29 juillet 1881."
+      ],
+      "reason": "Accord avec l'énoncé « La liberté d'expression… est : »."
+    },
+    "8": {
+      "answers": [
+        "Le drapeau tricolore",
+        "La Marseillaise",
+        "Marianne",
+        "La fête nationale du 14 juillet",
+        "Le coq gaulois"
+      ],
+      "reason": "Parenthèses retirées (indice visuel) ; le coq n'est pas « parfois accepté », c'est un symbole non officiel."
+    },
+    "9": {
+      "answers": [
+        "Sur les frontons des bâtiments publics (mairies, écoles, palais de justice).",
+        "Sur certaines pièces de monnaie.",
+        "Sur les timbres."
+      ],
+      "reason": "Typographie ; la devise figure sur certaines pièces, pas sur toutes."
+    },
+    "13": {
+      "answers": [
+        "La prise de la Bastille (14 juillet 1789).",
+        "La Fête de la Fédération (14 juillet 1790).",
+        "L'unité de la Nation et la fin de la monarchie absolue.",
+        "La prise de la Bastille (14 juillet 1789) et l'union nationale (14 juillet 1790)."
+      ],
+      "reason": "Deux variantes de la question 135 répondaient « la fête nationale » à « Que commémore la fête nationale ? » : réponses circulaires retirées."
+    },
+    "21": {
+      "answers": [
+        "Indivisible, laïque, démocratique et sociale"
+      ],
+      "reason": "La variante « La France est une République… » répétait la même réponse sous forme de phrase complète."
+    },
+    "26": {
+      "answers": [
+        "Demander un passeport ou une carte d'identité, si la mairie est équipée pour cela.",
+        "Se marier (mariage civil).",
+        "S'inscrire sur les listes électorales.",
+        "Déclarer une naissance ou un décès (état civil)."
+      ],
+      "reason": "Seules les mairies équipées d'une station d'enregistrement reçoivent les demandes de titres d'identité."
+    },
+    "30": {
+      "answers": [
+        "La neutralité de l'État et la liberté de conscience.",
+        "La séparation des institutions publiques et des organisations religieuses.",
+        "Le respect de toutes les croyances sans en privilégier aucune."
+      ],
+      "reason": "La religion fait partie de la société civile : « séparation entre la société civile et la société religieuse » était inexact."
+    },
+    "35": {
+      "answers": [
+        "L'État et ses administrations.",
+        "Les services publics (hôpitaux publics, écoles publiques, préfectures).",
+        "Les fonctionnaires et agents publics."
+      ],
+      "reason": "La neutralité s'impose aux services publics, pas aux cliniques ou écoles privées."
+    },
+    "37": {
+      "answers": [
+        "Rappeler les règles du vivre-ensemble à l'école.",
+        "Faire comprendre le sens de la laïcité aux élèves.",
+        "Expliquer que la laïcité protège la liberté des élèves."
+      ],
+      "reason": "Accord avec l'énoncé « permet de : » (« de De rappeler… »)."
+    },
+    "38": {
+      "answers": [
+        "Les agents du service public",
+        "Les personnes travaillant pour l'État ou les collectivités.",
+        "Le personnel des hôpitaux publics et des écoles publiques."
+      ],
+      "reason": "La neutralité s'impose au personnel des établissements publics."
+    },
+    "41": {
+      "answers": [
+        "Tout citoyen français de plus de 18 ans ayant ses droits civiques.",
+        "Un citoyen français ayant recueilli 500 parrainages d'élus.",
+        "Un citoyen français majeur qui n'est pas inéligible."
+      ],
+      "reason": "Les questions 41 et 72 apportaient trois paires de variantes identiques ; une formulation par idée, accordée à « Qui peut… ? »."
+    },
+    "44": {
+      "answers": [
+        "Une obligation légale pour pouvoir voter.",
+        "Obligatoire, mais sans amende.",
+        "Automatique pour les jeunes majeurs recensés."
+      ],
+      "reason": "Accord avec l'énoncé « L'inscription sur les listes électorales est : »."
+    },
+    "64": {
+      "answers": [
+        "Le juge ou le tribunal.",
+        "Le pouvoir judiciaire.",
+        "Le tribunal correctionnel."
+      ],
+      "reason": "Typographie : parenthèse et majuscules retirées."
+    },
+    "65": {
+      "answers": [
+        "Le département (conseil départemental).",
+        "La collectivité départementale."
+      ],
+      "reason": "Typographie : majuscules qui distinguaient la bonne réponse."
+    },
+    "66": {
+      "answers": [
+        "La commune (la mairie).",
+        "La municipalité."
+      ],
+      "reason": "Typographie : majuscules qui distinguaient la bonne réponse."
+    },
+    "78": {
+      "answers": [
+        "Veiller au respect des droits et libertés.",
+        "Lutter contre les discriminations.",
+        "Défendre les droits de l'enfant et la déontologie de la sécurité."
+      ],
+      "reason": "La première variante additionnait simplement les deux suivantes."
+    },
+    "79": {
+      "answers": [
+        "1992 (traité de Maastricht)"
+      ],
+      "reason": "Typographie."
+    },
+    "86": {
+      "answers": [
+        "Oui, aux élections municipales du pays où ils résident."
+      ],
+      "reason": "« Oui » seul était trop large : les citoyens européens votent aux municipales (et aux européennes), pas aux régionales ni aux départementales."
+    },
+    "95": {
+      "answers": [
+        "À permettre aux salariés de cesser collectivement le travail pour défendre leurs intérêts professionnels.",
+        "À défendre les intérêts professionnels des salariés.",
+        "À revendiquer de meilleures conditions de travail ou de salaire."
+      ],
+      "reason": "La variante « Il permet… » répétait la première et ne répondait pas à « À quoi sert… ? »."
+    },
+    "109": {
+      "answers": [
+        "Demander l'assistance d'un avocat.",
+        "Demander à voir un médecin.",
+        "Garder le silence (ne pas répondre aux questions).",
+        "Faire prévenir un proche ou son employeur."
+      ],
+      "reason": "« Demander à parler à un avocat » doublait « Demander l'assistance d'un avocat »."
+    },
+    "110": {
+      "answers": [
+        "Non, la religion est un choix individuel (liberté de conscience).",
+        "Non, chacun est libre de croire ou de ne pas croire."
+      ],
+      "reason": "« La République ne reconnaît aucun culte » ne répond pas à une question sur les personnes."
+    },
+    "111": {
+      "answers": [
+        "15 ans"
+      ],
+      "reason": "Réponse courte comme les autres choix ; la précision de la CNIL reste affichée après la réponse."
+    },
+    "112": {
+      "answers": [
+        "À son domicile."
+      ],
+      "reason": "« Un lieu privé » était trop large : il est interdit de fumer dans les lieux de travail privés et dans une voiture en présence d'un mineur."
+    },
+    "113": {
+      "answers": [
+        "Une infraction grave.",
+        "Un délit puni par la loi.",
+        "Passible d'un an de prison et de 15 000 € d'amende."
+      ],
+      "reason": "Accord avec l'énoncé « …est : » ; peine précisée (article L221-2 du Code de la route)."
+    },
+    "126": {
+      "answers": [
+        "Respecter la loi et les droits des autres.",
+        "Contribuer au financement des services publics (payer l'impôt).",
+        "Participer à la défense nationale (recensement, Journée défense et citoyenneté)."
+      ],
+      "reason": "La JAPD a été remplacée par la Journée défense et citoyenneté (JDC) en 2011."
+    },
+    "147": {
+      "answers": [
+        "Le Sénégal",
+        "L'Algérie",
+        "Le Mali",
+        "La Côte d'Ivoire",
+        "Le Viêt Nam"
+      ],
+      "reason": "L'Indochine n'est pas un pays : la question demande « Quel pays »."
+    },
+    "169": {
+      "answers": [
+        "Le coq au vin",
+        "Le bœuf bourguignon",
+        "La blanquette de veau",
+        "Le pot-au-feu"
+      ],
+      "reason": "Typographie : majuscules qui distinguaient les bonnes réponses."
+    },
+    "173": {
+      "answers": [
+        "Le château de Versailles"
+      ],
+      "reason": "Typographie : majuscule qui distinguait la bonne réponse."
+    },
+    "188": {
+      "answers": [
+        "Un peintre post-impressionniste français."
+      ],
+      "reason": "« Un peintre français » n'ajoutait rien."
+    },
+    "192": {
+      "answers": [
+        "Le musée du Louvre",
+        "Le musée d'Orsay",
+        "Le Centre Pompidou",
+        "Le musée du Quai Branly",
+        "Le musée de l'Orangerie"
+      ],
+      "reason": "Typographie : majuscules qui distinguaient les bonnes réponses."
+    },
+    "199": {
+      "answers": [
+        "La Guyane"
+      ],
+      "reason": "Article ajouté, comme pour les autres choix."
+    },
+    "201": {
+      "answers": [
+        "La mer Méditerranée",
+        "L'océan Atlantique",
+        "La Manche",
+        "La mer du Nord"
+      ],
+      "reason": "Typographie : majuscules qui distinguaient les bonnes réponses."
+    },
+    "218": {
+      "answers": [
+        "Est réservé aux véhicules transportant une personne titulaire de la carte de stationnement pour personnes handicapées."
+      ],
+      "reason": "Formulation raccourcie ; la précision sur la CMI mention stationnement reste affichée après la réponse."
+    },
+    "229": {
+      "answers": [
+        "Est un choix personnel.",
+        "Est un droit.",
+        "Peut être remboursée par l'Assurance Maladie, selon la méthode."
+      ],
+      "reason": "Formulation raccourcie ; la précision sourcée reste affichée après la réponse."
+    },
+    "232": {
+      "answers": [
+        "À compléter les remboursements de la Sécurité sociale, selon le contrat.",
+        "À prendre en charge tout ou partie du reste à payer, selon le contrat."
+      ],
+      "reason": "Formulations raccourcies ; la précision sourcée reste affichée après la réponse."
+    },
+    "233": {
+      "answers": [
+        "La dispense d'avancer tout ou partie des frais de santé pris en charge.",
+        "Le paiement direct du professionnel de santé par l'Assurance Maladie ou la mutuelle."
+      ],
+      "reason": "Formulation raccourcie ; la précision sourcée reste affichée après la réponse."
+    },
+    "234": {
+      "answers": [
+        "Obligatoire pour les personnes qui travaillent ou résident en France de manière stable et régulière."
+      ],
+      "reason": "Formulation raccourcie, même sens ; la précision sourcée reste affichée après la réponse."
+    },
+    "245": {
+      "answers": [
+        "Tous les salariés et les agents publics, sauf les militaires."
+      ],
+      "reason": "Les militaires en activité ne peuvent pas adhérer à un syndicat (Code de la défense, article L4121-4)."
+    },
+    "254": {
+      "answers": [
+        "Voter aux élections des représentants de parents d'élèves.",
+        "Siéger au conseil d'école comme représentant élu des parents.",
+        "Rejoindre une association de parents d'élèves, comme la FCPE ou la PEEP.",
+        "Rencontrer les professeurs lors des réunions régulières."
+      ],
+      "reason": "Formulation raccourcie ; la précision sourcée reste affichée après la réponse."
+    },
+    "257": {
+      "answers": [
+        "25 jours, auxquels s'ajoutent 3 jours de congé de naissance."
+      ],
+      "reason": "Formulation raccourcie ; la précision sourcée reste affichée après la réponse."
+    }
+  },
+  "answerDuplicates": [],
+  "originalAnswerCount": 497,
+  "cleanedAnswerCount": 497,
+  "reviewedQuestions": [
+    11,
+    22,
+    25,
+    46,
+    111,
+    116,
+    117,
+    130,
+    149,
+    150,
+    154,
+    159,
+    163,
+    216,
+    218,
+    219,
+    229,
+    230,
+    232,
+    233,
+    234,
+    242,
+    254,
+    256,
+    257
+  ],
+  "reviewedAnswerPolicy": "Les corrections sourcées sont appliquées aux réponses de chaque question avant la fusion dans data/questions.json. La copie dédoublonnée du fichier fourni conserve ses réponses pédagogiques originales."
+}

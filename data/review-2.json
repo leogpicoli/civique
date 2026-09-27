@@ -1,0 +1,47 @@
+{
+  "111": {
+    "suggested_answers": ["15 ans, pour consentir seul à certains traitements de ses données personnelles en ligne."],
+    "reason": "Le seuil de 15 ans concerne notamment le consentement à certains traitements de données. La CNIL précise qu'il ne s'agit pas d'une majorité numérique générale donnant tous les droits d'un adulte.",
+    "source": "https://www.cnil.fr/fr/recommandation-1-encadrer-la-capacite-dagir-des-mineurs-en-ligne"
+  },
+  "116": {
+    "suggested_answers": ["Oui, les contribuables concernés doivent déclarer leurs revenus chaque année, avec une déclaration automatique possible sous conditions."],
+    "reason": "L'obligation concerne la déclaration annuelle des revenus du foyer fiscal. Les personnes éligibles à la déclaration automatique doivent vérifier les informations et les corriger si nécessaire ; une nouvelle démarche n'est pas toujours requise.",
+    "source": "https://www.impots.gouv.fr/particulier/questions/dois-je-deposer-une-declaration-dimpot-sur-le-revenu-cette-annee"
+  },
+  "117": {
+    "suggested_answers": ["Oui, lorsque l'on peut agir sans danger pour soi ou pour autrui, notamment en alertant les secours."],
+    "reason": "L'obligation d'assistance ne demande pas de se mettre soi-même ou de mettre une autre personne en danger. Appeler les secours peut constituer l'assistance adaptée.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+  },
+  "130": {
+    "suggested_answers": ["Des citoyens français tirés au sort sur les listes électorales et remplissant les conditions légales pour être jurés."],
+    "reason": "Le tirage au sort ne suffit pas : des conditions d'âge, de maîtrise du français, de droits civiques et d'absence d'incompatibilité s'appliquent également.",
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"
+  },
+  "149": {
+    "suggested_answers": ["Depuis la réforme de 1962, appliquée pour la première fois en 1965 sous la Ve République."],
+    "reason": "1962 est l'année de la réforme constitutionnelle. La première élection selon ce nouveau mode de scrutin sous la Ve République a lieu en 1965 ; distinguer la règle et sa première application évite une confusion.",
+    "source": "https://www.elysee.fr/la-presidence/l-election-des-presidents-de-la-republique-depuis-195"
+  },
+  "150": {
+    "suggested_answers": ["1993, à l'entrée en vigueur du traité de Maastricht, signé en 1992."],
+    "reason": "Le traité de Maastricht a été signé le 7 février 1992 ; il crée formellement l'Union européenne à son entrée en vigueur le 1er novembre 1993.",
+    "source": "https://www.consilium.europa.eu/fr/history/"
+  },
+  "154": {
+    "suggested_answers": ["La fin de la Seconde Guerre mondiale en Europe en 1945.", "La victoire des Alliés en Europe en 1945.", "La capitulation de l'Allemagne nazie le 8 mai 1945."],
+    "reason": "Le 8 mai marque la victoire en Europe. La Seconde Guerre mondiale se poursuit en Asie jusqu'à la capitulation japonaise du 2 septembre 1945.",
+    "source": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/journees-nationales-commemoratives/8-mai-commemoration-victoire-du-8-mai-1945"
+  },
+  "159": {
+    "suggested_answers": ["Le gouvernement provisoire de la IIe République en 1848, sous l'impulsion de Victor Schœlcher."],
+    "reason": "Victor Schœlcher joue un rôle décisif et prépare le décret du 27 avril 1848 ; l'abolition est décidée par le gouvernement provisoire de la IIe République.",
+    "source": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/d36/dossiers-dhistoire-victor-schoelcher-1.html"
+  },
+  "163": {
+    "suggested_answers": ["1999 ; les pièces et les billets en euros circulent depuis 2002."],
+    "reason": "La France adopte l'euro le 1er janvier 1999. Le 1er janvier 2002 correspond à la mise en circulation des pièces et des billets, et non à la création de la monnaie officielle.",
+    "source": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/france-and-euro_en"
+  }
+}
