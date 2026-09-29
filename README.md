@@ -44,15 +44,15 @@ Chaque mise à jour se publie avec `git add . && git commit -m "..." && git push
 ## Votre entraînement
 
 - Chaque question propose une bonne réponse et trois mauvaises réponses spécifiques. L’ordre des questions et des choix est aléatoire.
-- Après validation, la bonne réponse et toutes les autres réponses possibles apparaissent, même en cas de réussite.
+- Dès le clic sur une réponse, la bonne réponse et toutes les autres réponses possibles apparaissent, même en cas de réussite.
 - À la prochaine tentative de cette question, la bonne réponse suivante est proposée. Après la dernière variante, on revient à la première.
-- Une erreur compte dans l’historique, mais **ne valide pas** la question : celle-ci revient en fin de file. Une bonne réponse la retire de la file du tour en cours.
+- Une erreur compte dans l’historique, mais **ne valide pas** la question : celle-ci revient en fin de file. Après une bonne réponse, « Je la savais » la retire de la file du tour en cours ; « J’ai répondu au pif » la renvoie en fin de file.
 - Quand toutes les questions sont réussies, le tour suivant repart dans un nouvel ordre. Les résultats cumulés, les variantes et les évaluations restent enregistrés.
 - « Passer » déplace la question en fin de file sans compter de réponse.
-- Après une première réponse, évaluez la question : **Facile**, **Moyen** ou **Difficile**. Cette évaluation reste modifiable.
-- « Les questions » propose une recherche, des filtres par thème, dernier résultat et difficulté, ainsi qu’un accès direct à chaque question. Une question réussie précédemment puis ratée redevient « À revoir ».
+- Les choix **J’ai répondu au pif** et **Je la savais** apparaissent uniquement après une bonne réponse. Choisissez avant de continuer. Aucune évaluation n’est demandée après une erreur.
+- « Les questions » propose une recherche, des filtres par thème, dernier résultat et réponse au pif ou connue, ainsi qu’un accès direct à chaque question. Une question réussie précédemment puis ratée redevient « À revoir ».
 - « Ma progression » montre les résultats du tour et les compteurs cumulés.
-- Raccourcis : **1 à 4** pour sélectionner ; **Entrée** pour valider ou continuer.
+- Raccourcis : **1 à 4** pour répondre immédiatement ; **Entrée** pour continuer après la correction et, si la réponse est juste, le choix de confiance.
 
 ## Sauvegardes
 

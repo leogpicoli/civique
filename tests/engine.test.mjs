@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   beginQuestion, filterQuestions, freshState, nextQuestion, questionStatus,
-  recordFor, restoreState, setDifficulty, submitAnswer, totals,
+  recordFor, restoreState, setConfidence, setDifficulty, submitAnswer, totals,
 } from '../engine.js';
 
 const questions = [
@@ -16,6 +16,7 @@ const makeState = (bank = questions) => ({ ...freshState(bank), queue: bank.map(
 const answer = (state, correct, bank = questions) => {
   const index = state.current.options.findIndex(option => option.correct === correct);
   assert.equal(submitAnswer(state, bank, index), true);
+  if (correct) assert.equal(setConfidence(state, bank, 'known'), true);
 };
 const filter = (state, changes) => filterQuestions(state, questions, {
   status: 'all', difficulty: 'all', theme: 'all', search: '', ...changes,
@@ -88,7 +89,7 @@ test('skipping leaves a question unseen, moves it to the tail, and does not adva
   assert.equal(beginQuestion(state, questions, 1).variant, 0);
 });
 
-test('the final correct answer counts completion immediately, then Next begins a round retaining history', () => {
+test('confirming the final known answer counts completion, then Next begins a round retaining history', () => {
   const state = makeState();
   state.preferences = { ...state.preferences, view: 'library', difficulty: 'difficile', search: 'Paris' };
   for (const question of questions) {
@@ -325,4 +326,106 @@ test('restore reconciles a changed bank and drops tampered option content withou
   assert.equal(restored.preferences.search.length, 200);
   assert.equal(restored.stats[1].correct, 1);
   assert.equal(restored.stats[999], undefined);
+});
+
+test('a correct answer waits for confidence, including after reload, without allowing Next to bypass it', () => {
+  let state = makeState();
+  beginQuestion(state, questions);
+  const index = state.current.options.findIndex(option => option.correct);
+  assert.equal(submitAnswer(state, questions, index), true);
+  assert.equal(state.current.result, true);
+  assert.equal(state.current.confidence, null);
+  assert.deepEqual(state.mastered, []);
+  assert.equal(state.stats[1].correct, 1);
+  state = restoreState(clone(state), questions);
+  const before = clone(state);
+  assert.equal(nextQuestion(state, questions).id, 1);
+  assert.deepEqual(state, before);
+  assert.equal(setConfidence(state, questions, 'known'), true);
+  assert.deepEqual(state.mastered, [1]);
+  assert.deepEqual(state.queue, [2, 3]);
+  assert.equal(nextQuestion(state, questions).id, 2);
+});
+
+test('a guessed correct answer returns once to the tail and preserves its success and variant across reloads', () => {
+  let state = makeState();
+  beginQuestion(state, questions);
+  submitAnswer(state, questions, state.current.options.findIndex(option => option.correct));
+  assert.equal(setConfidence(state, questions, 'guessed'), true);
+  state = restoreState(clone(state), questions);
+  assert.deepEqual(state.queue, [2, 3, 1]);
+  assert.deepEqual(state.mastered, []);
+  assert.equal(state.current.confidence, 'guessed');
+  assert.equal(state.stats[1].attempts, 1);
+  assert.equal(state.stats[1].correct, 1);
+  assert.equal(state.stats[1].incorrect, 0);
+  assert.deepEqual(filter(state, { confidence: 'guessed' }), [1]);
+  assert.equal(nextQuestion(state, questions).id, 2);
+  nextQuestion(state, questions);
+  assert.equal(nextQuestion(state, questions).id, 1);
+  assert.equal(state.current.variant, 1);
+  assert.equal(state.current.confidence, null);
+  answer(state, true);
+  assert.deepEqual(filter(state, { confidence: 'guessed' }), []);
+  assert.deepEqual(filter(state, { confidence: 'known' }), [1]);
+});
+
+test('guessing the last question cannot complete a round; knowing it on retry completes only once', () => {
+  const bank = [questions[0]];
+  let state = makeState(bank);
+  beginQuestion(state, bank);
+  submitAnswer(state, bank, state.current.options.findIndex(option => option.correct));
+  state = restoreState(clone(state), bank);
+  assert.equal(state.completedRounds, 0);
+  assert.equal(state.roundComplete, false);
+  setConfidence(state, bank, 'guessed');
+  state = restoreState(clone(state), bank);
+  assert.equal(state.completedRounds, 0);
+  nextQuestion(state, bank);
+  assert.equal(state.round, 1);
+  answer(state, true, bank);
+  assert.equal(state.completedRounds, 1);
+  assert.equal(state.roundComplete, true);
+  assert.equal(setConfidence(state, bank, 'known'), false);
+  assert.equal(setConfidence(state, bank, 'guessed'), false);
+  state = restoreState(clone(state), bank);
+  assert.equal(state.completedRounds, 1);
+  nextQuestion(state, bank);
+  assert.equal(state.round, 2);
+  assert.equal(state.stats[1].attempts, 2);
+});
+
+test('confidence rejects wrong answers, unanswered questions, invalid choices, and duplicate clicks', () => {
+  const state = makeState();
+  assert.equal(setConfidence(state, questions, 'known'), false);
+  beginQuestion(state, questions);
+  assert.equal(setConfidence(state, questions, 'guessed'), false);
+  answer(state, false);
+  const before = clone(state);
+  for (const value of ['known', 'guessed', 'facile', null]) assert.equal(setConfidence(state, questions, value), false);
+  assert.deepEqual(state, before);
+  nextQuestion(state, questions);
+  submitAnswer(state, questions, state.current.options.findIndex(option => option.correct));
+  assert.equal(setConfidence(state, questions, 'facile'), false);
+  assert.equal(setConfidence(state, questions, 'guessed'), true);
+  const guessed = clone(state);
+  assert.equal(setConfidence(state, questions, 'guessed'), false);
+  assert.equal(setConfidence(state, questions, 'known'), false);
+  assert.deepEqual(state, guessed);
+});
+
+test('old backups without confidence preserve mastery and final feedback', () => {
+  const bank = [questions[0]];
+  const old = makeState(bank);
+  beginQuestion(old, bank);
+  answer(old, true, bank);
+  delete old.current.confidence;
+  delete old.stats[1].confidence;
+  let restored = restoreState(old, bank);
+  for (let reload = 0; reload < 3; reload++) restored = restoreState(clone(restored), bank);
+  assert.deepEqual(restored.mastered, [1]);
+  assert.equal(restored.current.confidence, 'known');
+  assert.equal(restored.completedRounds, 1);
+  assert.equal(nextQuestion(restored, bank).result, null);
+  assert.equal(restored.round, 2);
 });

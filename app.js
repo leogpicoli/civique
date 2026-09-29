@@ -1,4 +1,4 @@
-import { STORAGE_KEY, freshState, restoreState, recordFor, beginQuestion, submitAnswer, nextQuestion, setDifficulty, totals, filterQuestions, questionStatus } from './engine.js';
+import { STORAGE_KEY, freshState, restoreState, recordFor, beginQuestion, submitAnswer, nextQuestion, setConfidence, totals, filterQuestions, questionStatus } from './engine.js';
 
 const root = document.querySelector('#app');
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -16,7 +16,7 @@ const icons = {
   download: '<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
 };
 const icon = (name, cls = '') => `<svg class="icon ${cls}" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${icons[name] || icons.book}</svg>`;
-const labels = { correct: 'Réussie', incorrect: 'À revoir', unseen: 'À découvrir', facile: 'Facile', moyen: 'Moyen', difficile: 'Difficile' };
+const labels = { correct: 'Réussie', incorrect: 'À revoir', unseen: 'À découvrir', guessed: 'J’ai répondu au pif', known: 'Je la savais' };
 let bank, questions, state, storageError = '', pendingImport = null;
 
 function toast(message) {
@@ -82,28 +82,28 @@ function practiceView(t, percent) {
         const status = answered ? option.correct ? 'is-correct' : c.selected === i ? 'is-wrong' : 'is-muted' : c.selected === i ? 'is-selected' : '';
         return `<button class="answer ${status}" data-answer="${i}" aria-pressed="${c.selected === i}" ${answered ? 'disabled' : ''}><span class="answer-letter">${'ABCD'[i]}</span><span>${escape(option.text)}</span><span class="answer-end">${answered && option.correct ? icon('check') : answered && c.selected === i ? icon('cross') : '<span class="radio-dot"></span>'}</span></button>`;
       }).join('')}</div>
-      ${answered ? feedback(q, c) : '<p class="answer-hint">Prenez votre temps. Ici, chaque essai compte.</p>'}
-      ${r.attempts ? `<div class="difficulty-box"><div><strong>Comment trouvez-vous cette question ?</strong><span>Votre ressenti, pour mieux organiser vos révisions.</span></div><div class="difficulty-buttons">${['facile', 'moyen', 'difficile'].map(d => `<button class="difficulty ${d} ${r.difficulty === d ? 'chosen' : ''}" data-difficulty="${d}" aria-pressed="${r.difficulty === d}"><i></i>${labels[d]}</button>`).join('')}</div></div>` : ''}
-    </div><div class="quiz-bottom"><span class="keyboard-hint">${answered ? `${r.correct} réussite${r.correct > 1 ? 's' : ''} · ${r.incorrect} erreur${r.incorrect > 1 ? 's' : ''}` : '<kbd>1</kbd>–<kbd>4</kbd> pour choisir <span>·</span> <kbd>↵</kbd> pour valider'}</span>${answered ? `<button class="primary" data-action="next">${complete ? 'Commencer le tour suivant' : 'Question suivante'}${icon('arrow')}</button>` : `<div class="quiz-actions"><button class="text-button" data-action="skip">Passer</button><button class="primary" data-action="submit" ${c.selected === null ? 'disabled' : ''}>Valider ma réponse${icon('arrow')}</button></div>`}</div>
-    </section><aside class="practice-aside"><section class="progress-panel"><div class="panel-eyebrow">VOTRE TOUR ${state.round}</div><div class="progress-ring" style="--progress:${percent * 3.6}deg"><div><strong>${percent}<small>%</small></strong><span>du chemin parcouru</span></div></div><h3>Petit à petit, ça avance.</h3><p><strong>${questions.length - t.mastered} question${questions.length - t.mastered > 1 ? 's' : ''}</strong> à réussir pour terminer ce tour.</p><div class="thin-progress"><i style="width:${percent}%"></i></div><div class="progress-legend"><span>${t.mastered} maîtrisées</span><span>${questions.length} au total</span></div></section><section class="tip-panel"><span>${icon('spark')}</span><h3>Le droit de se tromper.</h3><p>Une erreur ? La question revient en fin de file. Elle sera validée dès que vous trouverez la bonne réponse.</p><p>À chaque nouveau passage, découvrez une autre réponse possible.</p></section><button class="browse-link" data-view="library">Explorer les questions ${icon('arrow')}</button></aside></div>`;
+      ${answered ? feedback(q, c) : '<p class="answer-hint">Cliquez sur une réponse pour la valider immédiatement.</p>'}
+      ${c.result === true ? `<div class="confidence-box"><div><strong>Vous la saviez ou c’était au pif ?</strong><span>${c.confidence === 'guessed' ? 'Cette question revient en fin de file pour la revoir.' : c.confidence === 'known' ? 'Cette question est maîtrisée pour ce tour.' : 'Au pif ? Elle reviendra en fin de file.'}</span></div><div class="confidence-buttons">${['guessed', 'known'].map(value => `<button class="confidence ${value} ${c.confidence === value ? 'chosen' : ''}" data-confidence="${value}" aria-pressed="${c.confidence === value}" ${c.confidence !== null ? 'disabled' : ''}>${labels[value]}</button>`).join('')}</div></div>` : ''}
+    </div><div class="quiz-bottom"><span class="keyboard-hint">${answered ? `${r.correct} réussite${r.correct > 1 ? 's' : ''} · ${r.incorrect} erreur${r.incorrect > 1 ? 's' : ''}` : '<kbd>1</kbd>–<kbd>4</kbd> pour répondre directement'}</span>${answered ? `<button class="primary" data-action="next" ${c.result === true && c.confidence === null ? 'disabled' : ''}>${complete ? 'Commencer le tour suivant' : 'Question suivante'}${icon('arrow')}</button>` : `<div class="quiz-actions"><button class="text-button" data-action="skip">Passer</button></div>`}</div>
+    </section><aside class="practice-aside"><section class="progress-panel"><div class="panel-eyebrow">VOTRE TOUR ${state.round}</div><div class="progress-ring" style="--progress:${percent * 3.6}deg"><div><strong>${percent}<small>%</small></strong><span>du chemin parcouru</span></div></div><h3>Petit à petit, ça avance.</h3><p><strong>${questions.length - t.mastered} question${questions.length - t.mastered > 1 ? 's' : ''}</strong> à réussir pour terminer ce tour.</p><div class="thin-progress"><i style="width:${percent}%"></i></div><div class="progress-legend"><span>${t.mastered} maîtrisées</span><span>${questions.length} au total</span></div></section><section class="tip-panel"><span>${icon('spark')}</span><h3>Le droit de se tromper.</h3><p>Une erreur ou une bonne réponse au pif ? La question revient en fin de file. Choisissez « Je la savais » après une bonne réponse pour la maîtriser.</p><p>À chaque nouveau passage, découvrez une autre réponse possible.</p></section><button class="browse-link" data-view="library">Explorer les questions ${icon('arrow')}</button></aside></div>`;
 }
 
 function feedback(q, c) {
   const others = q.answers.filter((_, i) => i !== c.variant);
-  return `<section class="feedback ${c.result ? 'success' : 'retry'}" role="status"><div class="feedback-heading">${icon(c.result ? 'check' : 'book')}<strong>${c.result ? 'Bien joué, c’est la bonne réponse !' : 'Pas tout à fait. On retient, puis on réessaie.'}</strong></div>${!c.result ? `<p>La bonne réponse : <strong>${escape(q.answers[c.variant])}</strong></p><p>Cette question reste à réviser et passe à la fin de la file.</p>` : ''}${others.length ? `<div class="other-answers"><h3>Les autres réponses possibles</h3><p>Une autre de ces réponses vous sera proposée au prochain passage.</p><ul>${others.map(a => `<li>${escape(a)}</li>`).join('')}</ul></div>` : ''}${q.corrections?.length ? `<details class="source-note"><summary>Une précision pour bien apprendre</summary>${q.corrections.map(note => `<p>${escape(note.reason)} <a href="${escape(note.source)}" target="_blank" rel="noopener noreferrer">Source de référence ↗</a></p>`).join('')}</details>` : ''}${state.mastered.length === questions.length ? '<p class="round-complete">✦ Toutes les questions de ce tour sont maîtrisées ! Le prochain tour conserve votre historique et vos évaluations.</p>' : ''}</section>`;
+  return `<section tabindex="-1" class="feedback ${c.result ? 'success' : 'retry'}" role="status"><div class="feedback-heading">${icon(c.result ? 'check' : 'book')}<strong>${c.result ? 'Bien joué, c’est la bonne réponse !' : 'Pas tout à fait. On retient, puis on réessaie.'}</strong></div>${!c.result ? `<p>La bonne réponse : <strong>${escape(q.answers[c.variant])}</strong></p><p>Cette question reste à réviser et passe à la fin de la file.</p>` : ''}${others.length ? `<div class="other-answers"><h3>Les autres réponses possibles</h3><p>Une autre de ces réponses vous sera proposée au prochain passage.</p><ul>${others.map(a => `<li>${escape(a)}</li>`).join('')}</ul></div>` : ''}${q.corrections?.length ? `<details class="source-note"><summary>Une précision pour bien apprendre</summary>${q.corrections.map(note => `<p>${escape(note.reason)} <a href="${escape(note.source)}" target="_blank" rel="noopener noreferrer">Source de référence ↗</a></p>`).join('')}</details>` : ''}${state.mastered.length === questions.length ? '<p class="round-complete">✦ Toutes les questions de ce tour sont maîtrisées ! Le prochain tour conserve votre historique et vos évaluations.</p>' : ''}</section>`;
 }
 
 function libraryView() {
   const p = state.preferences;
-  return `<section class="library-panel"><div class="library-toolbar"><label class="search-box">${icon('search')}<span class="sr-only">Rechercher une question</span><input id="search" type="search" placeholder="Rechercher : mot ou numéro…" maxlength="200" value="${escape(p.search)}"></label><label class="filter-label"><span>Thème</span><select id="theme-filter"><option value="all">Tous les thèmes</option>${[...new Set(questions.map(q => q.theme))].map(theme => `<option ${p.theme === theme ? 'selected' : ''}>${escape(theme)}</option>`).join('')}</select></label><label class="filter-label"><span>Difficulté</span><select id="difficulty-filter">${['all', 'facile', 'moyen', 'difficile'].map(d => `<option value="${d}" ${p.difficulty === d ? 'selected' : ''}>${d === 'all' ? 'Toutes les difficultés' : labels[d]}</option>`).join('')}</select></label></div><div class="status-tabs" role="group" aria-label="Filtrer par résultat">${[['all', 'Toutes'], ['unseen', 'À découvrir'], ['correct', 'Réussies'], ['incorrect', 'À revoir']].map(([value, label]) => `<button data-status="${value}" class="${p.status === value ? 'selected' : ''}" aria-pressed="${p.status === value}">${label}<span>${value === 'all' ? questions.length : questions.filter(q => questionStatus(state, q.id) === value).length}</span></button>`).join('')}</div><p class="filter-explanation">Les résultats indiquent votre dernier essai. La difficulté est disponible après une première réponse.</p><div id="question-results">${libraryResults()}</div></section>`;
+  return `<section class="library-panel"><div class="library-toolbar"><label class="search-box">${icon('search')}<span class="sr-only">Rechercher une question</span><input id="search" type="search" placeholder="Rechercher : mot ou numéro…" maxlength="200" value="${escape(p.search)}"></label><label class="filter-label"><span>Thème</span><select id="theme-filter"><option value="all">Tous les thèmes</option>${[...new Set(questions.map(q => q.theme))].map(theme => `<option ${p.theme === theme ? 'selected' : ''}>${escape(theme)}</option>`).join('')}</select></label><label class="filter-label"><span>Votre réponse</span><select id="confidence-filter">${['all', 'guessed', 'known'].map(d => `<option value="${d}" ${(p.confidence || 'all') === d ? 'selected' : ''}>${d === 'all' ? 'Toutes les réponses' : labels[d]}</option>`).join('')}</select></label></div><div class="status-tabs" role="group" aria-label="Filtrer par résultat">${[['all', 'Toutes'], ['unseen', 'À découvrir'], ['correct', 'Réussies'], ['incorrect', 'À revoir']].map(([value, label]) => `<button data-status="${value}" class="${p.status === value ? 'selected' : ''}" aria-pressed="${p.status === value}">${label}<span>${value === 'all' ? questions.length : questions.filter(q => questionStatus(state, q.id) === value).length}</span></button>`).join('')}</div><p class="filter-explanation">Les résultats indiquent votre dernier essai. Les bonnes réponses au pif restent dans la file de révision.</p><div id="question-results">${libraryResults()}</div></section>`;
 }
 
 function libraryResults() {
-  const filtered = filterQuestions(state, questions, state.preferences);
+  const filtered = filterQuestions(state, questions, { ...state.preferences, difficulty: 'all' });
   return `<div class="results-heading"><span>${filtered.length} question${filtered.length > 1 ? 's' : ''}</span><button class="text-button" data-action="clear-filters">Effacer les filtres</button></div>${filtered.length ? `<div class="question-list">${filtered.map(q => {
     const r = recordFor(state, q.id);
     const status = questionStatus(state, q.id);
-    return `<button class="question-row" data-question="${q.id}"><span class="list-number">${String(q.sourceIds[0]).padStart(3, '0')}</span><span class="list-question"><span class="list-theme">${escape(q.theme)}</span><strong>${escape(q.question)}</strong><span class="list-history">${r.attempts ? `${r.correct} réussite${r.correct > 1 ? 's' : ''} · ${r.incorrect} erreur${r.incorrect > 1 ? 's' : ''}` : 'Pas encore essayée'}${state.mastered.includes(q.id) ? ' · Validée dans ce tour' : ''}</span></span><span class="row-badges"><span class="status-badge ${status}">${labels[status]}</span>${r.difficulty ? `<span class="difficulty-label ${r.difficulty}">● ${labels[r.difficulty]}</span>` : ''}</span>${icon('arrow')}</button>`;
+    return `<button class="question-row" data-question="${q.id}"><span class="list-number">${String(q.sourceIds[0]).padStart(3, '0')}</span><span class="list-question"><span class="list-theme">${escape(q.theme)}</span><strong>${escape(q.question)}</strong><span class="list-history">${r.attempts ? `${r.correct} réussite${r.correct > 1 ? 's' : ''} · ${r.incorrect} erreur${r.incorrect > 1 ? 's' : ''}` : 'Pas encore essayée'}${state.mastered.includes(q.id) ? ' · Validée dans ce tour' : ''}</span></span><span class="row-badges"><span class="status-badge ${status}">${labels[status]}</span>${r.confidence ? `<span class="confidence-label ${r.confidence}">● ${labels[r.confidence]}</span>` : ''}</span>${icon('arrow')}</button>`;
   }).join('')}</div>` : '<div class="empty-state"><h2>Aucune question pour ces filtres.</h2><p>Essayez un autre thème ou effacez vos filtres.</p></div>'}`;
 }
 
@@ -136,18 +136,21 @@ function exportProgress() {
   toast('Votre sauvegarde a été exportée.');
 }
 
+function answer(index) {
+  if (!submitAnswer(state, questions, index)) return;
+  save(); render();
+  document.querySelector('.feedback')?.focus({ preventScroll: true });
+  document.querySelector('.feedback')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
 function action(name) {
-  if (name === 'submit') {
-    if (!submitAnswer(state, questions, state.current?.selected)) return;
-    save(); render();
-    document.querySelector('.feedback')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  } else if (name === 'next' || name === 'skip') {
+  if (name === 'next' || name === 'skip') {
     nextQuestion(state, questions); save(); render();
     document.querySelector('#question-title')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   } else if (name === 'settings') settings();
   else if (name === 'close-modal') document.querySelector('#modal').close();
   else if (name === 'export') exportProgress();
-  else if (name === 'clear-filters') { Object.assign(state.preferences, { search: '', status: 'all', difficulty: 'all', theme: 'all' }); save(); render(); }
+  else if (name === 'clear-filters') { Object.assign(state.preferences, { search: '', status: 'all', difficulty: 'all', confidence: 'all', theme: 'all' }); save(); render(); }
   else if (name === 'reset-confirm') openModal('Effacer votre progression ?', '<p>Cette action supprime tous vos essais et vos évaluations dans ce navigateur. Exportez une copie si vous souhaitez les conserver.</p><div class="backup-actions"><button class="secondary" data-action="close-modal">Annuler</button><button class="danger-button" data-action="reset">Tout effacer</button></div>');
   else if (name === 'reset') { state = freshState(questions); beginQuestion(state, questions); save(); render(); toast('Un nouveau départ. Bonnes révisions !'); }
   else if (name === 'import-confirm' && pendingImport) { state = pendingImport; pendingImport = null; save(); render(); toast('Votre progression a été restaurée.'); }
@@ -160,15 +163,15 @@ document.addEventListener('click', event => {
   if (!el || el.disabled) return;
   if (el.dataset.view) { event.preventDefault(); state.preferences.view = el.dataset.view; save(); render(); }
   else if (el.dataset.action) action(el.dataset.action);
-  else if (el.dataset.answer !== undefined && state.current?.result === null) { state.current.selected = Number(el.dataset.answer); save(); render(); document.querySelector(`[data-answer="${state.current.selected}"]`)?.focus(); }
-  else if (el.dataset.difficulty) { setDifficulty(state, state.current.id, el.dataset.difficulty); save(); render(); toast(`Question évaluée : ${labels[el.dataset.difficulty].toLowerCase()}.`); }
+  else if (el.dataset.answer !== undefined && state.current?.result === null) { answer(Number(el.dataset.answer)); }
+  else if (el.dataset.confidence) { if (!setConfidence(state, questions, el.dataset.confidence)) return; save(); render(); document.querySelector('[data-action="next"]')?.focus({ preventScroll: true }); }
   else if (el.dataset.status) { state.preferences.status = el.dataset.status; save(); render(); }
   else if (el.dataset.question) {
     const id = el.dataset.question;
     // Opening a question from the library intentionally starts a fresh attempt.
     if (state.current?.id === id && state.current.result !== null) state.current = null;
     beginQuestion(state, questions, id); state.preferences.view = 'practice'; save(); render(); window.scrollTo({ top: 0, behavior: 'smooth' });
-  } else if (el.dataset.theme) { Object.assign(state.preferences, { view: 'library', theme: el.dataset.theme, status: 'all', difficulty: 'all', search: '' }); save(); render(); }
+  } else if (el.dataset.theme) { Object.assign(state.preferences, { view: 'library', theme: el.dataset.theme, status: 'all', difficulty: 'all', confidence: 'all', search: '' }); save(); render(); }
 });
 
 document.addEventListener('input', event => {
@@ -177,7 +180,7 @@ document.addEventListener('input', event => {
 
 document.addEventListener('change', async event => {
   const el = event.target;
-  if (el.id === 'theme-filter' || el.id === 'difficulty-filter') { state.preferences[el.id === 'theme-filter' ? 'theme' : 'difficulty'] = el.value; save(); render(); }
+  if (el.id === 'theme-filter' || el.id === 'confidence-filter') { state.preferences[el.id === 'theme-filter' ? 'theme' : 'confidence'] = el.value; save(); render(); }
   if (el.id === 'import-file' && el.files[0]) {
     try {
       if (el.files[0].size > 5_000_000) throw new Error('Ce fichier est trop volumineux.');
@@ -190,9 +193,9 @@ document.addEventListener('change', async event => {
 });
 
 document.addEventListener('keydown', event => {
-  if (!state || state.preferences.view !== 'practice' || document.querySelector('dialog[open]') || event.ctrlKey || event.metaKey || event.altKey || /INPUT|SELECT|TEXTAREA/.test(event.target.tagName)) return;
-  if (/^[1-4]$/.test(event.key) && state.current?.result === null) { event.preventDefault(); state.current.selected = Number(event.key) - 1; save(); render(); }
-  if (event.key === 'Enter' && event.target.tagName !== 'BUTTON' && state.current) { event.preventDefault(); action(state.current.result === null ? 'submit' : 'next'); }
+  if (event.repeat || !state || state.preferences.view !== 'practice' || document.querySelector('dialog[open]') || event.ctrlKey || event.metaKey || event.altKey || /INPUT|SELECT|TEXTAREA/.test(event.target.tagName)) return;
+  if (/^[1-4]$/.test(event.key) && state.current?.result === null) { event.preventDefault(); answer(Number(event.key) - 1); }
+  if (event.key === 'Enter' && event.target.tagName !== 'BUTTON' && state.current?.result !== null && state.current) { event.preventDefault(); action('next'); }
 });
 
 window.addEventListener('storage', event => {
@@ -216,6 +219,7 @@ async function init() {
       state = freshState(questions);
       toast('Sauvegarde illisible : une copie de récupération a été conservée si le stockage le permet.');
     }
+    state.preferences.difficulty = 'all';
     if (!state.current && state.queue.length) beginQuestion(state, questions);
     save(); render();
   } catch (error) {
