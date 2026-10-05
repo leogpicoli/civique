@@ -44,19 +44,18 @@ Chaque mise à jour se publie avec `git add . && git commit -m "..." && git push
 ## Votre entraînement
 
 - Chaque question propose une bonne réponse et trois mauvaises réponses spécifiques. L’ordre des questions et des choix est aléatoire.
-- Dès le clic sur une réponse, la bonne réponse et toutes les autres réponses possibles apparaissent, même en cas de réussite.
-- À la prochaine tentative de cette question, la bonne réponse suivante est proposée. Après la dernière variante, on revient à la première.
-- Une erreur compte dans l’historique, mais **ne valide pas** la question : celle-ci revient en fin de file. Après une bonne réponse, « Je la savais » la retire de la file du tour en cours ; « J’ai répondu au pif » la renvoie en fin de file.
-- Quand toutes les questions sont réussies, le tour suivant repart dans un nouvel ordre. Les résultats cumulés, les variantes et les évaluations restent enregistrés.
+- Parmi les bonnes réponses acceptées, celle qui est proposée est tirée au hasard à chaque passage, dès la première fois.
+- Une bonne réponse valide la question pour le tour en cours et la question suivante s’ouvre automatiquement.
+- Une erreur compte dans l’historique, mais **ne valide pas** la question : la bonne réponse et les autres réponses possibles s’affichent, la question revient en fin de file, et « Question suivante » permet de continuer.
+- Quand toutes les questions sont réussies, le tour suivant repart dans un nouvel ordre. Les résultats cumulés restent enregistrés.
 - « Passer » déplace la question en fin de file sans compter de réponse.
-- Les choix **J’ai répondu au pif** et **Je la savais** apparaissent uniquement après une bonne réponse. Choisissez avant de continuer. Aucune évaluation n’est demandée après une erreur.
-- « Les questions » propose une recherche, des filtres par thème, dernier résultat et réponse au pif ou connue, ainsi qu’un accès direct à chaque question. Une question réussie précédemment puis ratée redevient « À revoir ».
+- « Les questions » propose une recherche, des filtres par thème et dernier résultat, ainsi qu’un accès direct à chaque question. Une question réussie précédemment puis ratée redevient « À revoir ».
 - « Ma progression » montre les résultats du tour et les compteurs cumulés.
-- Raccourcis : **1 à 4** pour répondre immédiatement ; **Entrée** pour continuer après la correction et, si la réponse est juste, le choix de confiance.
+- Raccourcis : **1 à 4** pour répondre immédiatement ; **Entrée** pour continuer après une erreur.
 
 ## Sauvegardes
 
-Le site sauvegarde automatiquement les résultats, la file, la question affichée, ses choix, les évaluations et les préférences dans le **localStorage** du navigateur, sous la clé `civique.progress.v1`.
+Le site sauvegarde automatiquement les résultats, la file, la question affichée, ses choix et les préférences dans le **localStorage** du navigateur, sous la clé `civique.progress.v1`.
 
 La progression est propre à chaque navigateur **et** à chaque adresse : le téléphone, l’ordinateur, `localhost:7777` et l’adresse publiée ont chacun leur propre sauvegarde. Pour continuer sur un autre appareil, exportez la progression puis importez-la sur l’autre. Effacer les données du navigateur ou fermer une session privée peut supprimer le progrès.
 

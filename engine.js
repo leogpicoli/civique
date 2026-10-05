@@ -1,6 +1,7 @@
 export const STORAGE_KEY = 'civique.progress.v1';
 export const DIFFICULTIES = ['facile', 'moyen', 'difficile'];
-export const CONFIDENCES = ['guessed', 'known'];
+// Older saves may still carry a confidence rating; it is accepted on restore and then dropped.
+const LEGACY_CONFIDENCES = ['guessed', 'known'];
 
 export function shuffled(values, random = Math.random) {
   const result = [...values];
@@ -27,7 +28,7 @@ function startNextRound(state, questions) {
   state.current = null;
 }
 
-export function beginQuestion(state, questions, id) {
+export function beginQuestion(state, questions, id, random = Math.random) {
   const requestedId = id ?? (state.roundComplete && state.current ? state.current.id : state.queue[0]);
   if (state.current?.id === requestedId && (!state.roundComplete || state.current.result !== null)) return state.current;
   if (id !== undefined && !questions.some(q => q.id === id)) return null;
@@ -36,12 +37,12 @@ export function beginQuestion(state, questions, id) {
   const question = questions.find(q => q.id === (id ?? state.queue[0]));
   if (!question) return null;
   id = question.id;
-  const record = recordFor(state, id);
-  const variant = record.nextVariant % question.answers.length;
+  // Any accepted answer may be the one offered, from the very first visit.
+  const variant = Math.floor(random() * question.answers.length);
   state.current = {
     id, variant,
-    options: shuffled([{ text: question.answers[variant], correct: true }, ...shuffled(question.wrong).slice(0, 3).map(text => ({ text, correct: false }))]),
-    selected: null, result: null, confidence: null,
+    options: shuffled([{ text: question.answers[variant], correct: true }, ...shuffled(question.wrong, random).slice(0, 3).map(text => ({ text, correct: false }))], random),
+    selected: null, result: null,
   };
   return state.current;
 }
@@ -56,27 +57,17 @@ export function submitAnswer(state, questions, index) {
   record[correct ? 'correct' : 'incorrect']++;
   record.nextVariant = (current.variant + 1) % question.answers.length;
   record.lastResult = correct ? 'correct' : 'incorrect';
-  record.confidence = null;
   record.lastAnsweredAt = new Date().toISOString();
   state.stats[current.id] = record;
   current.selected = index;
   current.result = correct;
   state.queue = state.queue.filter(id => id !== current.id);
   state.mastered = state.mastered.filter(id => id !== current.id);
-  // Correct answers also stay pending until the learner confirms they knew it.
-  state.queue.push(current.id);
-  return true;
-}
-
-export function setConfidence(state, questions, confidence) {
-  const current = state.current;
-  if (!current || current.result !== true || current.confidence !== null || !CONFIDENCES.includes(confidence)) return false;
-  current.confidence = confidence;
-  state.stats[current.id].confidence = confidence;
-  state.queue = state.queue.filter(id => id !== current.id);
-  state.mastered = state.mastered.filter(id => id !== current.id);
-  if (confidence === 'known') state.mastered.push(current.id);
-  else state.queue.push(current.id);
+  if (!correct) {
+    state.queue.push(current.id);
+    return true;
+  }
+  state.mastered.push(current.id);
   if (questions.length > 0 && state.mastered.length === questions.length) {
     state.roundComplete = true;
     state.completedRounds++;
@@ -85,7 +76,6 @@ export function setConfidence(state, questions, confidence) {
 }
 
 export function nextQuestion(state, questions) {
-  if (state.current?.result === true && state.current.confidence === null) return state.current;
   // An unanswered question stays in the queue, behind the other pending questions.
   if (state.current?.result === null && state.queue.includes(state.current.id)) {
     state.queue = state.queue.filter(id => id !== state.current.id).concat(state.current.id);
@@ -125,7 +115,6 @@ export function filterQuestions(state, questions, filters) {
     const record = recordFor(state, q.id);
     return (filters.status === 'all' || questionStatus(state, q.id) === filters.status)
       && (filters.difficulty === 'all' || (record.attempts > 0 && record.difficulty === filters.difficulty))
-      && (!filters.confidence || filters.confidence === 'all' || record.confidence === filters.confidence)
       && (filters.theme === 'all' || q.theme === filters.theme)
       && (!filters.search || normalize(q.question + ' ' + q.sourceIds.join(' ')).includes(normalize(filters.search)));
   });
@@ -151,17 +140,16 @@ export function restoreState(raw, questions) {
       || (record.lastResult === 'correct' && record.correct === 0)
       || (record.lastResult === 'incorrect' && record.incorrect === 0)
       || (record.difficulty !== null && !DIFFICULTIES.includes(record.difficulty))
-      || (record.confidence != null && (!CONFIDENCES.includes(record.confidence) || record.lastResult !== 'correct'))) throw new Error('Historique de réponses invalide.');
+      || (record.confidence != null && (!LEGACY_CONFIDENCES.includes(record.confidence) || record.lastResult !== 'correct'))) throw new Error('Historique de réponses invalide.');
     state.stats[q.id] = {
       attempts: record.attempts, correct: record.correct, incorrect: record.incorrect,
       nextVariant: record.nextVariant % q.answers.length,
       lastResult: record.attempts ? record.lastResult : null,
       lastAnsweredAt: typeof record.lastAnsweredAt === 'string' ? record.lastAnsweredAt : null,
       difficulty: record.attempts ? record.difficulty : null,
-      ...(record.confidence !== undefined ? { confidence: record.confidence } : {}),
     };
   }
-  state.mastered = [...new Set(raw.mastered)].filter(id => ids.has(id) && state.stats[id]?.lastResult === 'correct' && state.stats[id]?.confidence !== 'guessed');
+  state.mastered = [...new Set(raw.mastered)].filter(id => ids.has(id) && state.stats[id]?.lastResult === 'correct');
   state.queue = [...new Set(raw.queue)].filter(id => ids.has(id) && !state.mastered.includes(id));
   for (const id of shuffled([...ids])) if (!state.queue.includes(id) && !state.mastered.includes(id)) state.queue.push(id);
   // Old saves counted completion only on Next. Recover that pending completion,
@@ -174,7 +162,6 @@ export function restoreState(raw, questions) {
     if (allowed.includes(p[key])) state.preferences[key] = p[key];
   }
   if (typeof p.search === 'string') state.preferences.search = p.search.slice(0, 200);
-  if (['all', ...CONFIDENCES].includes(p.confidence)) state.preferences.confidence = p.confidence;
   const c = raw.current;
   const q = questions.find(q => q.id === c?.id);
   if (q && integer(c.variant) && c.variant < q.answers.length && Array.isArray(c.options) && c.options.length === 4
@@ -186,12 +173,7 @@ export function restoreState(raw, questions) {
     && [null, true, false].includes(c.result)
     && (c.selected === null || (integer(c.selected) && c.selected < 4))
     && (c.result === null || (c.selected !== null && c.options[c.selected].correct === c.result && state.stats[q.id]?.lastResult === (c.result ? 'correct' : 'incorrect')))) {
-    // Existing backups treated every correct answer as known; preserve that progress.
-    const confidence = c.result === true ? (c.confidence === undefined ? 'known' : c.confidence) : null;
-    if (confidence !== null && !CONFIDENCES.includes(confidence)) throw new Error('Évaluation de réponse invalide.');
-    if (c.result === true && c.confidence !== undefined && state.stats[q.id]?.confidence !== confidence) throw new Error('Évaluation de réponse incohérente.');
-    if (c.result === true && c.confidence === undefined) state.stats[q.id].confidence = confidence;
-    state.current = { id: q.id, variant: c.variant, options: c.options.map(o => ({ text: o.text, correct: o.correct })), selected: c.selected, result: c.result, confidence };
+    state.current = { id: q.id, variant: c.variant, options: c.options.map(o => ({ text: o.text, correct: o.correct })), selected: c.selected, result: c.result };
   }
   if (state.roundComplete && state.current?.result === null) state.current = null;
   state.updatedAt = typeof raw.updatedAt === 'string' ? raw.updatedAt : null;
